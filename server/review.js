@@ -1,66 +1,85 @@
-
 import fs from "fs/promises";
 import readline from "node:readline/promises";
 
-function addIfMissing(arr, value) {
-  if (!value) return arr;
+const addIfMissing = (arr, v) => {
+  if (!v) return arr;
   if (!Array.isArray(arr)) arr = [];
-  if (!arr.includes(value)) arr.push(value);
+  if (!arr.includes(v)) arr.push(v);
   return arr;
-}
-function tidyAlternateIds(card) {
-  if (Array.isArray(card.alternate_ids)) {
-    card.alternate_ids = [...new Set(card.alternate_ids)].sort();
-  }
-}
+};
+const tidy = (c) => {
+  if (Array.isArray(c.alternate_ids))
+    c.alternate_ids = [...new Set(c.alternate_ids)].sort();
+};
+const link = (a, b) => {
+  a.alternate_ids = addIfMissing(a.alternate_ids, b.card_id);
+  b.alternate_ids = addIfMissing(b.alternate_ids, a.card_id);
+  tidy(a);
+  tidy(b);
+};
 
-async function manualReview(
+export async function runManualReview({
   dbPath = "./new_cards.json",
-  reviewPath = "./card_review.json",
-) {
-  // Load db and build byId map
+  reviewPath = "./review_cards.json",
+  outPath = "./reviewed_cards.json",
+} = {}) {
   const db = JSON.parse(await fs.readFile(dbPath, "utf-8"));
-  const byId = new Map(db.map(c => [c.card_id, c]));
+  const byId = new Map(db.map((c) => [c.card_id, c]));
+  const items = JSON.parse(await fs.readFile(reviewPath, "utf-8"));
 
-  // Load card_review.json
-  const reviewItems = JSON.parse(await fs.readFile(reviewPath, "utf-8"));
-
-  const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-  let approved = 0, rejected = 0;
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+  let approved = 0,
+    rejected = 0,
+    manualLinked = 0;
 
   try {
-    for (const item of reviewItems) {
-      const en = byId.get(item.enCard.en_id) || {
-        card_id: item.enCard.en_id,
-        card_name: item.enCard.en_name,
-        alternate_ids: []
-      };
+    for (const item of items) {
+      const en = byId.get(item.enCard.en_id);
+      if (!en) {
+        console.log(`EN not found: ${item.enCard.en_id}`);
+        continue;
+      }
 
       console.log("\n================= Manual Review =================");
-      console.log("EN:");
       console.table([{ card_id: en.card_id, card_name: en.card_name }]);
 
-      for (const jp of item.jpCards) {
-        const jpCanonical = byId.get(jp.jp_id) || {
-          card_id: jp.jp_id,
-          card_name: jp.jp_name,
-          alternate_ids: []
-        };
-
-        console.log("\nJP candidate:");
-        console.table([{ card_id: jpCanonical.card_id, card_name: jpCanonical.card_name }]);
-
-        const ans = await rl.question("Accept this JP for the EN card? (Y/N) ");
+      for (const slim of item.jpCards) {
+        const jp = byId.get(slim.jp_id);
+        console.table([{ card_id: en.card_id, card_name: en.card_name }]); // show EN every time
+        if (!jp) {
+          console.log(`(missing) JP candidate: ${slim.jp_id} ${slim.jp_name}`);
+          continue;
+        }
+        console.table([{ card_id: jp.card_id, card_name: jp.card_name }]);
+        const ans = await rl.question("Accept this JP? (Y/N) ");
         if (ans.trim().toLowerCase().startsWith("y")) {
-          en.alternate_ids = addIfMissing(en.alternate_ids, jpCanonical.card_id);
-          jpCanonical.alternate_ids = addIfMissing(jpCanonical.alternate_ids, en.card_id);
-          tidyAlternateIds(en);
-          tidyAlternateIds(jpCanonical);
+          link(en, jp);
           approved++;
-          console.log("✓ Linked via alternate_ids.");
+          console.log("✓ Linked");
         } else {
           rejected++;
-          console.log("✗ Rejected.");
+          console.log("✗ Rejected");
+        }
+      }
+
+      const extra = (
+        await rl.question(
+          "Add JP card_id(s) manually? (comma/space or Enter): "
+        )
+      ).trim();
+      if (extra) {
+        for (const id of extra.split(/[\s,]+/).filter(Boolean)) {
+          const jp = byId.get(id);
+          if (!jp) {
+            console.log(`  ⚠ Not found: ${id}`);
+            continue;
+          }
+          link(en, jp);
+          manualLinked++;
+          console.log(`  ✓ Manually linked ${id}`);
         }
       }
     }
@@ -68,11 +87,11 @@ async function manualReview(
     rl.close();
   }
 
-  // Save updated DB
-  await fs.writeFile("./new_cards.json", JSON.stringify(db, null, 2), "utf-8");
-
-  console.log(`\nReview finished. Approved: ${approved}, Rejected: ${rejected}`);
-  console.log("✅ Wrote cards.updated.json");
+  await fs.writeFile(outPath, JSON.stringify(db, null, 2), "utf-8");
+  console.log(
+    `Review done: approved=${approved}, rejected=${rejected}, manual=${manualLinked}`
+  );
+  console.log(`Wrote ${outPath}`);
 }
 
-await manualReview()
+runManualReview();
