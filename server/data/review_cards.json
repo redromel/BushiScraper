@@ -1,0 +1,4158 @@
+[
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP03-077EN",
+      "en_name": "Gattling Claw Dragon",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-077",
+        "jp_name": "Gatling Claw Dragon"
+      },
+      {
+        "jp_id": "CP03-P54",
+        "jp_name": "Gatling Claw Dragon"
+      },
+      {
+        "jp_id": "CSD03b-013",
+        "jp_name": "Gatling Claw Dragon"
+      }
+    ]
+  },
+  {
+    "matches": 5,
+    "enCard": {
+      "en_id": "CP03-080EN",
+      "en_name": "Iron Tail Dragon",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-078",
+        "jp_name": "Lizard Soldier, Ganlu"
+      },
+      {
+        "jp_id": "CP03-080",
+        "jp_name": "Irontail Dragon"
+      },
+      {
+        "jp_id": "CP03-P55",
+        "jp_name": "Lizard Soldier, Ganlu"
+      },
+      {
+        "jp_id": "CP03-P57",
+        "jp_name": "Irontail Dragon"
+      },
+      {
+        "jp_id": "CSD03b-014",
+        "jp_name": "Lizard Soldier, Ganlu"
+      }
+    ]
+  },
+  {
+    "matches": 4,
+    "enCard": {
+      "en_id": "CP03-125EN",
+      "en_name": "Powers Converged",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-125",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-126",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL24",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL25",
+        "jp_name": "Intertwining Power"
+      }
+    ]
+  },
+  {
+    "matches": 4,
+    "enCard": {
+      "en_id": "CP03-126EN",
+      "en_name": "Powers Converged",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-125",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-126",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL24",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL25",
+        "jp_name": "Intertwining Power"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "CP03-LD01EN",
+      "en_name": "Leon Soryu [Wind of Justice]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR01",
+        "jp_name": "Wolfraud, Hanging Trickster"
+      },
+      {
+        "jp_id": "CP03-LD01",
+        "jp_name": "Leon Soryu [Winds of Justice]"
+      },
+      {
+        "jp_id": "BP10-LD01",
+        "jp_name": "Izudia, the Sixth Omen"
+      },
+      {
+        "jp_id": "BP08-LD01",
+        "jp_name": "Orchis, Heartful Puppet"
+      },
+      {
+        "jp_id": "CP02-LD01",
+        "jp_name": "Aiko Takamori [Vow of Love]"
+      },
+      {
+        "jp_id": "BP06-LD01",
+        "jp_name": "Lycoris, Soothing Venom"
+      },
+      {
+        "jp_id": "BP05-LD01",
+        "jp_name": "Liza, Greenwood Queen"
+      },
+      {
+        "jp_id": "BP04-LD01",
+        "jp_name": "C.C."
+      },
+      {
+        "jp_id": "ETD03-LD01",
+        "jp_name": "Itsuki Mitsutagawa"
+      },
+      {
+        "jp_id": "BP03-LD01",
+        "jp_name": "Itsuki Mitsutagawa"
+      },
+      {
+        "jp_id": "CP01-LD01",
+        "jp_name": "Yukino Bijin [Hometown Cheers]"
+      },
+      {
+        "jp_id": "BP02-LD01",
+        "jp_name": "Michelle, Purehearted Mindreader"
+      },
+      {
+        "jp_id": "BP01-LD01",
+        "jp_name": "Arisa"
+      },
+      {
+        "jp_id": "BP01-LD02",
+        "jp_name": "Aria, Dancing Fairy"
+      },
+      {
+        "jp_id": "SD01-LD01",
+        "jp_name": "Arisa"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CP03-LD02EN",
+      "en_name": "Aichi Sendou [Guiding Hand of Bonds]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "CP03-LD03EN",
+      "en_name": "Asaka Narumi [On to the Fascinating Stage]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR03",
+        "jp_name": "Lhynkal, Foolish Sage"
+      },
+      {
+        "jp_id": "CP03-LD03",
+        "jp_name": "Asaka Narumi [On the Enchanting Stage]"
+      },
+      {
+        "jp_id": "BP10-LD03",
+        "jp_name": "Raio, the Ninth Omen"
+      },
+      {
+        "jp_id": "BP10-LD04",
+        "jp_name": "Lishenna, the Second Omen"
+      },
+      {
+        "jp_id": "BP07-LD01",
+        "jp_name": "Emmylou, Wee Witchette"
+      },
+      {
+        "jp_id": "CP02-LD03",
+        "jp_name": "Mizuki Kawashima [Ambivalent Act]"
+      },
+      {
+        "jp_id": "BP05-LD03",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      },
+      {
+        "jp_id": "BP04-LD03",
+        "jp_name": "Cornelia li Britannia"
+      },
+      {
+        "jp_id": "BP04-LD04",
+        "jp_name": "Jeremiah Gottwald"
+      },
+      {
+        "jp_id": "BP03-LD02",
+        "jp_name": "Daria, Dimensional Drifter"
+      },
+      {
+        "jp_id": "CP01-LD03",
+        "jp_name": "Kawakami Princess [Princess Bride]"
+      },
+      {
+        "jp_id": "BP01-LD05",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "BP01-LD06",
+        "jp_name": "Erasmus, Magical Sage"
+      },
+      {
+        "jp_id": "SD03-LD01",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "DSD01a-LD01",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      }
+    ]
+  },
+  {
+    "matches": 21,
+    "enCard": {
+      "en_id": "CP03-LD05EN",
+      "en_name": "Ren Suzugamori [The Dark Dictator]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR05",
+        "jp_name": "Milteo, Inseparable Love"
+      },
+      {
+        "jp_id": "BP15-PR06",
+        "jp_name": "Luzen, Controlling Desire"
+      },
+      {
+        "jp_id": "CP03-LD05",
+        "jp_name": "Ren Suzugamori [Jet Black Ruler]"
+      },
+      {
+        "jp_id": "BP10-LD06",
+        "jp_name": "Valnareik, the Seventh Omen"
+      },
+      {
+        "jp_id": "BP10-LD07",
+        "jp_name": "Rulenye, the Third Omen"
+      },
+      {
+        "jp_id": "BP09-LD02",
+        "jp_name": "Aenea, Gentle Amethyst"
+      },
+      {
+        "jp_id": "CP02-LD05",
+        "jp_name": "Asuka Ninomiya [Fragments of an Idol]"
+      },
+      {
+        "jp_id": "BP05-LD05",
+        "jp_name": "Cerberus, Festive Hound"
+      },
+      {
+        "jp_id": "BP04-LD07",
+        "jp_name": "Lelouch Lamperouge"
+      },
+      {
+        "jp_id": "BP04-LD08",
+        "jp_name": "Khawy, Underworld Arbiter"
+      },
+      {
+        "jp_id": "BP04-LD%E2%93%8801",
+        "jp_name": "Lelouch Lamperouge"
+      },
+      {
+        "jp_id": "BP04-LD~s~01",
+        "jp_name": "Lelouch Lamperouge"
+      },
+      {
+        "jp_id": "ETD02-LD01",
+        "jp_name": "Subaru Makabe"
+      },
+      {
+        "jp_id": "BP03-LD04",
+        "jp_name": "Subaru Makabe"
+      },
+      {
+        "jp_id": "CP01-LD06",
+        "jp_name": "Twin Turbo [Turbo Booooost!]"
+      },
+      {
+        "jp_id": "CP01-LD07",
+        "jp_name": "Manhattan Cafe [My Solo Spun in Spiraling Runs]"
+      },
+      {
+        "jp_id": "BP02-LD03",
+        "jp_name": "La+ Darkness"
+      },
+      {
+        "jp_id": "BP01-LD09",
+        "jp_name": "Luna"
+      },
+      {
+        "jp_id": "BP01-LD10",
+        "jp_name": "Urias"
+      },
+      {
+        "jp_id": "SD05-LD01",
+        "jp_name": "Luna"
+      },
+      {
+        "jp_id": "PR-017",
+        "jp_name": "La+ Darkness"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "CP03-LD06EN",
+      "en_name": "Misaki Tokura [Beyond Memories]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR07",
+        "jp_name": "Sofina, Inexhaustible Might"
+      },
+      {
+        "jp_id": "BP15-PR08",
+        "jp_name": "Slaus, Fortune's Cycle"
+      },
+      {
+        "jp_id": "CP03-LD06",
+        "jp_name": "Misaki Tokura [Beyond Memory]"
+      },
+      {
+        "jp_id": "BP10-LD08",
+        "jp_name": "Marwynn, the Fourth Omen"
+      },
+      {
+        "jp_id": "BP09-LD03",
+        "jp_name": "Marcotte, Heretical Celebrant"
+      },
+      {
+        "jp_id": "BP07-LD03",
+        "jp_name": "Sonia, Guardian of Silence"
+      },
+      {
+        "jp_id": "CP02-LD06",
+        "jp_name": "Yoshino Yorita [Ocean's Beckoning]"
+      },
+      {
+        "jp_id": "BP05-LD06",
+        "jp_name": "Zoe, Golden Princess"
+      },
+      {
+        "jp_id": "BP04-LD09",
+        "jp_name": "Charles zi Britannia"
+      },
+      {
+        "jp_id": "BP04-LD10",
+        "jp_name": "Lorena, Gentle Piety"
+      },
+      {
+        "jp_id": "BP03-LD05",
+        "jp_name": "Yuti, Meus Princess"
+      },
+      {
+        "jp_id": "CP01-LD08",
+        "jp_name": "Mejiro Palmer [Go Ahead and Laugh]"
+      },
+      {
+        "jp_id": "BP01-LD11",
+        "jp_name": "Eris"
+      },
+      {
+        "jp_id": "BP01-LD12",
+        "jp_name": "Ramina, Crescent Beast"
+      },
+      {
+        "jp_id": "SD06-LD01",
+        "jp_name": "Eris"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "CP03-LD07EN",
+      "en_name": "Leon Soryu",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR01",
+        "jp_name": "Wolfraud, Hanging Trickster"
+      },
+      {
+        "jp_id": "CP03-LD01",
+        "jp_name": "Leon Soryu [Winds of Justice]"
+      },
+      {
+        "jp_id": "BP10-LD01",
+        "jp_name": "Izudia, the Sixth Omen"
+      },
+      {
+        "jp_id": "BP08-LD01",
+        "jp_name": "Orchis, Heartful Puppet"
+      },
+      {
+        "jp_id": "CP02-LD01",
+        "jp_name": "Aiko Takamori [Vow of Love]"
+      },
+      {
+        "jp_id": "BP06-LD01",
+        "jp_name": "Lycoris, Soothing Venom"
+      },
+      {
+        "jp_id": "BP05-LD01",
+        "jp_name": "Liza, Greenwood Queen"
+      },
+      {
+        "jp_id": "BP04-LD01",
+        "jp_name": "C.C."
+      },
+      {
+        "jp_id": "ETD03-LD01",
+        "jp_name": "Itsuki Mitsutagawa"
+      },
+      {
+        "jp_id": "BP03-LD01",
+        "jp_name": "Itsuki Mitsutagawa"
+      },
+      {
+        "jp_id": "CP01-LD01",
+        "jp_name": "Yukino Bijin [Hometown Cheers]"
+      },
+      {
+        "jp_id": "BP02-LD01",
+        "jp_name": "Michelle, Purehearted Mindreader"
+      },
+      {
+        "jp_id": "BP01-LD01",
+        "jp_name": "Arisa"
+      },
+      {
+        "jp_id": "BP01-LD02",
+        "jp_name": "Aria, Dancing Fairy"
+      },
+      {
+        "jp_id": "SD01-LD01",
+        "jp_name": "Arisa"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CP03-LD08EN",
+      "en_name": "Aichi Sendou",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "CP03-LD09EN",
+      "en_name": "Asaka Narumi",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR03",
+        "jp_name": "Lhynkal, Foolish Sage"
+      },
+      {
+        "jp_id": "CP03-LD03",
+        "jp_name": "Asaka Narumi [On the Enchanting Stage]"
+      },
+      {
+        "jp_id": "BP10-LD03",
+        "jp_name": "Raio, the Ninth Omen"
+      },
+      {
+        "jp_id": "BP10-LD04",
+        "jp_name": "Lishenna, the Second Omen"
+      },
+      {
+        "jp_id": "BP07-LD01",
+        "jp_name": "Emmylou, Wee Witchette"
+      },
+      {
+        "jp_id": "CP02-LD03",
+        "jp_name": "Mizuki Kawashima [Ambivalent Act]"
+      },
+      {
+        "jp_id": "BP05-LD03",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      },
+      {
+        "jp_id": "BP04-LD03",
+        "jp_name": "Cornelia li Britannia"
+      },
+      {
+        "jp_id": "BP04-LD04",
+        "jp_name": "Jeremiah Gottwald"
+      },
+      {
+        "jp_id": "BP03-LD02",
+        "jp_name": "Daria, Dimensional Drifter"
+      },
+      {
+        "jp_id": "CP01-LD03",
+        "jp_name": "Kawakami Princess [Princess Bride]"
+      },
+      {
+        "jp_id": "BP01-LD05",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "BP01-LD06",
+        "jp_name": "Erasmus, Magical Sage"
+      },
+      {
+        "jp_id": "SD03-LD01",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "DSD01a-LD01",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      }
+    ]
+  },
+  {
+    "matches": 19,
+    "enCard": {
+      "en_id": "CP03-LD10EN",
+      "en_name": "Toshiki Kai",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR04",
+        "jp_name": "Erntz, Righteous Scales"
+      },
+      {
+        "jp_id": "CP03-LD04",
+        "jp_name": "Toshiki Kai [Solitary Flame]"
+      },
+      {
+        "jp_id": "BP10-LD05",
+        "jp_name": "Galmieux, the Fifth Omen"
+      },
+      {
+        "jp_id": "BP08-LD03",
+        "jp_name": "Fennie, Resplendent Phoenix"
+      },
+      {
+        "jp_id": "BP07-LD02",
+        "jp_name": "Forte, Duskwing Tyrant"
+      },
+      {
+        "jp_id": "CP02-LD04",
+        "jp_name": "Akari Tsujino [Shining Summer Apple]"
+      },
+      {
+        "jp_id": "BP06-LD02",
+        "jp_name": "Oracle of the Waterwyrm"
+      },
+      {
+        "jp_id": "BP05-LD04",
+        "jp_name": "Ian & Adelle, Transcendent Love"
+      },
+      {
+        "jp_id": "BP04-LD05",
+        "jp_name": "Kallen Kozuki"
+      },
+      {
+        "jp_id": "BP04-LD06",
+        "jp_name": "Li Xingke"
+      },
+      {
+        "jp_id": "ETD01-LD01",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "BP03-LD03",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "CP01-LD04",
+        "jp_name": "Yaeno Muteki [Fiery Discipline]"
+      },
+      {
+        "jp_id": "CP01-LD05",
+        "jp_name": "Grass Wonder [Fairest Fleur]"
+      },
+      {
+        "jp_id": "CSD01-LD01",
+        "jp_name": "Special Week [The Brightest Star in Japan!]"
+      },
+      {
+        "jp_id": "BP01-LD07",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "BP01-LD08",
+        "jp_name": "Zirnitra, Zealous Wings"
+      },
+      {
+        "jp_id": "SD04-LD01",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "DSD01b-LD01",
+        "jp_name": "Forte, Duskwing Tyrant"
+      }
+    ]
+  },
+  {
+    "matches": 21,
+    "enCard": {
+      "en_id": "CP03-LD11EN",
+      "en_name": "Ren Suzugamori",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR05",
+        "jp_name": "Milteo, Inseparable Love"
+      },
+      {
+        "jp_id": "BP15-PR06",
+        "jp_name": "Luzen, Controlling Desire"
+      },
+      {
+        "jp_id": "CP03-LD05",
+        "jp_name": "Ren Suzugamori [Jet Black Ruler]"
+      },
+      {
+        "jp_id": "BP10-LD06",
+        "jp_name": "Valnareik, the Seventh Omen"
+      },
+      {
+        "jp_id": "BP10-LD07",
+        "jp_name": "Rulenye, the Third Omen"
+      },
+      {
+        "jp_id": "BP09-LD02",
+        "jp_name": "Aenea, Gentle Amethyst"
+      },
+      {
+        "jp_id": "CP02-LD05",
+        "jp_name": "Asuka Ninomiya [Fragments of an Idol]"
+      },
+      {
+        "jp_id": "BP05-LD05",
+        "jp_name": "Cerberus, Festive Hound"
+      },
+      {
+        "jp_id": "BP04-LD07",
+        "jp_name": "Lelouch Lamperouge"
+      },
+      {
+        "jp_id": "BP04-LD08",
+        "jp_name": "Khawy, Underworld Arbiter"
+      },
+      {
+        "jp_id": "BP04-LD%E2%93%8801",
+        "jp_name": "Lelouch Lamperouge"
+      },
+      {
+        "jp_id": "BP04-LD~s~01",
+        "jp_name": "Lelouch Lamperouge"
+      },
+      {
+        "jp_id": "ETD02-LD01",
+        "jp_name": "Subaru Makabe"
+      },
+      {
+        "jp_id": "BP03-LD04",
+        "jp_name": "Subaru Makabe"
+      },
+      {
+        "jp_id": "CP01-LD06",
+        "jp_name": "Twin Turbo [Turbo Booooost!]"
+      },
+      {
+        "jp_id": "CP01-LD07",
+        "jp_name": "Manhattan Cafe [My Solo Spun in Spiraling Runs]"
+      },
+      {
+        "jp_id": "BP02-LD03",
+        "jp_name": "La+ Darkness"
+      },
+      {
+        "jp_id": "BP01-LD09",
+        "jp_name": "Luna"
+      },
+      {
+        "jp_id": "BP01-LD10",
+        "jp_name": "Urias"
+      },
+      {
+        "jp_id": "SD05-LD01",
+        "jp_name": "Luna"
+      },
+      {
+        "jp_id": "PR-017",
+        "jp_name": "La+ Darkness"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "CP03-LD12EN",
+      "en_name": "Misaki Tokura",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR07",
+        "jp_name": "Sofina, Inexhaustible Might"
+      },
+      {
+        "jp_id": "BP15-PR08",
+        "jp_name": "Slaus, Fortune's Cycle"
+      },
+      {
+        "jp_id": "CP03-LD06",
+        "jp_name": "Misaki Tokura [Beyond Memory]"
+      },
+      {
+        "jp_id": "BP10-LD08",
+        "jp_name": "Marwynn, the Fourth Omen"
+      },
+      {
+        "jp_id": "BP09-LD03",
+        "jp_name": "Marcotte, Heretical Celebrant"
+      },
+      {
+        "jp_id": "BP07-LD03",
+        "jp_name": "Sonia, Guardian of Silence"
+      },
+      {
+        "jp_id": "CP02-LD06",
+        "jp_name": "Yoshino Yorita [Ocean's Beckoning]"
+      },
+      {
+        "jp_id": "BP05-LD06",
+        "jp_name": "Zoe, Golden Princess"
+      },
+      {
+        "jp_id": "BP04-LD09",
+        "jp_name": "Charles zi Britannia"
+      },
+      {
+        "jp_id": "BP04-LD10",
+        "jp_name": "Lorena, Gentle Piety"
+      },
+      {
+        "jp_id": "BP03-LD05",
+        "jp_name": "Yuti, Meus Princess"
+      },
+      {
+        "jp_id": "CP01-LD08",
+        "jp_name": "Mejiro Palmer [Go Ahead and Laugh]"
+      },
+      {
+        "jp_id": "BP01-LD11",
+        "jp_name": "Eris"
+      },
+      {
+        "jp_id": "BP01-LD12",
+        "jp_name": "Ramina, Crescent Beast"
+      },
+      {
+        "jp_id": "SD06-LD01",
+        "jp_name": "Eris"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP03-P54EN",
+      "en_name": "Gattling Claw Dragon",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-077",
+        "jp_name": "Gatling Claw Dragon"
+      },
+      {
+        "jp_id": "CP03-P54",
+        "jp_name": "Gatling Claw Dragon"
+      },
+      {
+        "jp_id": "CSD03b-013",
+        "jp_name": "Gatling Claw Dragon"
+      }
+    ]
+  },
+  {
+    "matches": 5,
+    "enCard": {
+      "en_id": "CP03-P57EN",
+      "en_name": "Iron Tail Dragon",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-078",
+        "jp_name": "Lizard Soldier, Ganlu"
+      },
+      {
+        "jp_id": "CP03-080",
+        "jp_name": "Irontail Dragon"
+      },
+      {
+        "jp_id": "CP03-P55",
+        "jp_name": "Lizard Soldier, Ganlu"
+      },
+      {
+        "jp_id": "CP03-P57",
+        "jp_name": "Irontail Dragon"
+      },
+      {
+        "jp_id": "CSD03b-014",
+        "jp_name": "Lizard Soldier, Ganlu"
+      }
+    ]
+  },
+  {
+    "matches": 4,
+    "enCard": {
+      "en_id": "CP03-SL24EN",
+      "en_name": "Powers Converged",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-125",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-126",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL24",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL25",
+        "jp_name": "Intertwining Power"
+      }
+    ]
+  },
+  {
+    "matches": 4,
+    "enCard": {
+      "en_id": "CP03-SL25EN",
+      "en_name": "Powers Converged",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-125",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-126",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL24",
+        "jp_name": "Intertwining Power"
+      },
+      {
+        "jp_id": "CP03-SL25",
+        "jp_name": "Intertwining Power"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CSD03b-013EN",
+      "en_name": "Gattling Claw Dragon",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP03-077",
+        "jp_name": "Gatling Claw Dragon"
+      },
+      {
+        "jp_id": "CP03-P54",
+        "jp_name": "Gatling Claw Dragon"
+      },
+      {
+        "jp_id": "CSD03b-013",
+        "jp_name": "Gatling Claw Dragon"
+      }
+    ]
+  },
+  {
+    "matches": 19,
+    "enCard": {
+      "en_id": "CSD03b-LD01EN",
+      "en_name": "Toshiki Kai [Burn in Apocalyptic Fire!!]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR04",
+        "jp_name": "Erntz, Righteous Scales"
+      },
+      {
+        "jp_id": "CP03-LD04",
+        "jp_name": "Toshiki Kai [Solitary Flame]"
+      },
+      {
+        "jp_id": "BP10-LD05",
+        "jp_name": "Galmieux, the Fifth Omen"
+      },
+      {
+        "jp_id": "BP08-LD03",
+        "jp_name": "Fennie, Resplendent Phoenix"
+      },
+      {
+        "jp_id": "BP07-LD02",
+        "jp_name": "Forte, Duskwing Tyrant"
+      },
+      {
+        "jp_id": "CP02-LD04",
+        "jp_name": "Akari Tsujino [Shining Summer Apple]"
+      },
+      {
+        "jp_id": "BP06-LD02",
+        "jp_name": "Oracle of the Waterwyrm"
+      },
+      {
+        "jp_id": "BP05-LD04",
+        "jp_name": "Ian & Adelle, Transcendent Love"
+      },
+      {
+        "jp_id": "BP04-LD05",
+        "jp_name": "Kallen Kozuki"
+      },
+      {
+        "jp_id": "BP04-LD06",
+        "jp_name": "Li Xingke"
+      },
+      {
+        "jp_id": "ETD01-LD01",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "BP03-LD03",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "CP01-LD04",
+        "jp_name": "Yaeno Muteki [Fiery Discipline]"
+      },
+      {
+        "jp_id": "CP01-LD05",
+        "jp_name": "Grass Wonder [Fairest Fleur]"
+      },
+      {
+        "jp_id": "CSD01-LD01",
+        "jp_name": "Special Week [The Brightest Star in Japan!]"
+      },
+      {
+        "jp_id": "BP01-LD07",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "BP01-LD08",
+        "jp_name": "Zirnitra, Zealous Wings"
+      },
+      {
+        "jp_id": "SD04-LD01",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "DSD01b-LD01",
+        "jp_name": "Forte, Duskwing Tyrant"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD03a-LD01EN",
+      "en_name": "Aichi Sendou [Arise, My Avatar!!]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 19,
+    "enCard": {
+      "en_id": "GFD02-LD01EN",
+      "en_name": "Vidar, Crowned Traitor",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR04",
+        "jp_name": "Erntz, Righteous Scales"
+      },
+      {
+        "jp_id": "CP03-LD04",
+        "jp_name": "Toshiki Kai [Solitary Flame]"
+      },
+      {
+        "jp_id": "BP10-LD05",
+        "jp_name": "Galmieux, the Fifth Omen"
+      },
+      {
+        "jp_id": "BP08-LD03",
+        "jp_name": "Fennie, Resplendent Phoenix"
+      },
+      {
+        "jp_id": "BP07-LD02",
+        "jp_name": "Forte, Duskwing Tyrant"
+      },
+      {
+        "jp_id": "CP02-LD04",
+        "jp_name": "Akari Tsujino [Shining Summer Apple]"
+      },
+      {
+        "jp_id": "BP06-LD02",
+        "jp_name": "Oracle of the Waterwyrm"
+      },
+      {
+        "jp_id": "BP05-LD04",
+        "jp_name": "Ian & Adelle, Transcendent Love"
+      },
+      {
+        "jp_id": "BP04-LD05",
+        "jp_name": "Kallen Kozuki"
+      },
+      {
+        "jp_id": "BP04-LD06",
+        "jp_name": "Li Xingke"
+      },
+      {
+        "jp_id": "ETD01-LD01",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "BP03-LD03",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "CP01-LD04",
+        "jp_name": "Yaeno Muteki [Fiery Discipline]"
+      },
+      {
+        "jp_id": "CP01-LD05",
+        "jp_name": "Grass Wonder [Fairest Fleur]"
+      },
+      {
+        "jp_id": "CSD01-LD01",
+        "jp_name": "Special Week [The Brightest Star in Japan!]"
+      },
+      {
+        "jp_id": "BP01-LD07",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "BP01-LD08",
+        "jp_name": "Zirnitra, Zealous Wings"
+      },
+      {
+        "jp_id": "SD04-LD01",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "DSD01b-LD01",
+        "jp_name": "Forte, Duskwing Tyrant"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "GFD01-LD01EN",
+      "en_name": "Bayle, Luxheart Champion",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR01",
+        "jp_name": "Wolfraud, Hanging Trickster"
+      },
+      {
+        "jp_id": "CP03-LD01",
+        "jp_name": "Leon Soryu [Winds of Justice]"
+      },
+      {
+        "jp_id": "BP10-LD01",
+        "jp_name": "Izudia, the Sixth Omen"
+      },
+      {
+        "jp_id": "BP08-LD01",
+        "jp_name": "Orchis, Heartful Puppet"
+      },
+      {
+        "jp_id": "CP02-LD01",
+        "jp_name": "Aiko Takamori [Vow of Love]"
+      },
+      {
+        "jp_id": "BP06-LD01",
+        "jp_name": "Lycoris, Soothing Venom"
+      },
+      {
+        "jp_id": "BP05-LD01",
+        "jp_name": "Liza, Greenwood Queen"
+      },
+      {
+        "jp_id": "BP04-LD01",
+        "jp_name": "C.C."
+      },
+      {
+        "jp_id": "ETD03-LD01",
+        "jp_name": "Itsuki Mitsutagawa"
+      },
+      {
+        "jp_id": "BP03-LD01",
+        "jp_name": "Itsuki Mitsutagawa"
+      },
+      {
+        "jp_id": "CP01-LD01",
+        "jp_name": "Yukino Bijin [Hometown Cheers]"
+      },
+      {
+        "jp_id": "BP02-LD01",
+        "jp_name": "Michelle, Purehearted Mindreader"
+      },
+      {
+        "jp_id": "BP01-LD01",
+        "jp_name": "Arisa"
+      },
+      {
+        "jp_id": "BP01-LD02",
+        "jp_name": "Aria, Dancing Fairy"
+      },
+      {
+        "jp_id": "SD01-LD01",
+        "jp_name": "Arisa"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP10-001EN",
+      "en_name": "XII. Wolfraud, The Hanged Man",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-001",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      },
+      {
+        "jp_id": "BP10-SL01",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      },
+      {
+        "jp_id": "BP10-U01",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "BP10-002EN",
+      "en_name": "XII. Wolfraud, The Hanged Man (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-002",
+        "jp_name": "XII. Wolfraud, Hanged Man (Evolved)"
+      },
+      {
+        "jp_id": "BP10-SL02",
+        "jp_name": "XII. Wolfraud, Hanged Man (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 1,
+    "enCard": {
+      "en_id": "BP10-048EN",
+      "en_name": "Piquant Potioneer",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-048",
+        "jp_name": "Potion Wizard"
+      }
+    ]
+  },
+  {
+    "matches": 1,
+    "enCard": {
+      "en_id": "BP10-049EN",
+      "en_name": "Piquant Potioneer (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-049",
+        "jp_name": "Potion Wizard (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "BP10-057EN",
+      "en_name": "Lævateinn Dragon, Dual Form α",
+      "en_type": [
+        "Follower",
+        "Advanced"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-057",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-058",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-059",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      },
+      {
+        "jp_id": "BP10-SL15",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-SL16",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-SL17",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "BP10-058EN",
+      "en_name": "Lævateinn Dragon, Dual Form β",
+      "en_type": [
+        "Follower",
+        "Advanced"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-057",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-058",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-059",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      },
+      {
+        "jp_id": "BP10-SL15",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-SL16",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-SL17",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "BP10-059EN",
+      "en_name": "Lævateinn Dragon, Dual Form γ",
+      "en_type": [
+        "Follower",
+        "Advanced"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-057",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-058",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-059",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      },
+      {
+        "jp_id": "BP10-SL15",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-SL16",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-SL17",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP10-SL01EN",
+      "en_name": "XII. Wolfraud, The Hanged Man",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-001",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      },
+      {
+        "jp_id": "BP10-SL01",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      },
+      {
+        "jp_id": "BP10-U01",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "BP10-SL02EN",
+      "en_name": "XII. Wolfraud, The Hanged Man (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-002",
+        "jp_name": "XII. Wolfraud, Hanged Man (Evolved)"
+      },
+      {
+        "jp_id": "BP10-SL02",
+        "jp_name": "XII. Wolfraud, Hanged Man (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "BP10-SL15EN",
+      "en_name": "Lævateinn Dragon, Dual Form α",
+      "en_type": [
+        "Follower",
+        "Advanced"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-057",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-058",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-059",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      },
+      {
+        "jp_id": "BP10-SL15",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-SL16",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-SL17",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "BP10-SL16EN",
+      "en_name": "Lævateinn Dragon, Dual Form β",
+      "en_type": [
+        "Follower",
+        "Advanced"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-057",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-058",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-059",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      },
+      {
+        "jp_id": "BP10-SL15",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-SL16",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-SL17",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "BP10-SL17EN",
+      "en_name": "Lævateinn Dragon, Dual Form γ",
+      "en_type": [
+        "Follower",
+        "Advanced"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-057",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-058",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-059",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      },
+      {
+        "jp_id": "BP10-SL15",
+        "jp_name": "Lævateinn Dragon, Dual Form Alpha"
+      },
+      {
+        "jp_id": "BP10-SL16",
+        "jp_name": "Lævateinn Dragon, Dual Form Beta"
+      },
+      {
+        "jp_id": "BP10-SL17",
+        "jp_name": "Lævateinn Dragon, Dual Form Gamma"
+      }
+    ]
+  },
+  {
+    "matches": 1,
+    "enCard": {
+      "en_id": "BP10-T01EN",
+      "en_name": "Exterminus Weapon",
+      "en_type": [
+        "Follower",
+        "Token"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-T01",
+        "jp_name": "Terminus Weapon"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP10-U01EN",
+      "en_name": "XII. Wolfraud, The Hanged Man",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP10-001",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      },
+      {
+        "jp_id": "BP10-SL01",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      },
+      {
+        "jp_id": "BP10-U01",
+        "jp_name": "XII. Wolfraud, Hanged Man"
+      }
+    ]
+  },
+  {
+    "matches": 19,
+    "enCard": {
+      "en_id": "SS02-LD01EN",
+      "en_name": "Galan",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR04",
+        "jp_name": "Erntz, Righteous Scales"
+      },
+      {
+        "jp_id": "CP03-LD04",
+        "jp_name": "Toshiki Kai [Solitary Flame]"
+      },
+      {
+        "jp_id": "BP10-LD05",
+        "jp_name": "Galmieux, the Fifth Omen"
+      },
+      {
+        "jp_id": "BP08-LD03",
+        "jp_name": "Fennie, Resplendent Phoenix"
+      },
+      {
+        "jp_id": "BP07-LD02",
+        "jp_name": "Forte, Duskwing Tyrant"
+      },
+      {
+        "jp_id": "CP02-LD04",
+        "jp_name": "Akari Tsujino [Shining Summer Apple]"
+      },
+      {
+        "jp_id": "BP06-LD02",
+        "jp_name": "Oracle of the Waterwyrm"
+      },
+      {
+        "jp_id": "BP05-LD04",
+        "jp_name": "Ian & Adelle, Transcendent Love"
+      },
+      {
+        "jp_id": "BP04-LD05",
+        "jp_name": "Kallen Kozuki"
+      },
+      {
+        "jp_id": "BP04-LD06",
+        "jp_name": "Li Xingke"
+      },
+      {
+        "jp_id": "ETD01-LD01",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "BP03-LD03",
+        "jp_name": "Light Tenryu"
+      },
+      {
+        "jp_id": "CP01-LD04",
+        "jp_name": "Yaeno Muteki [Fiery Discipline]"
+      },
+      {
+        "jp_id": "CP01-LD05",
+        "jp_name": "Grass Wonder [Fairest Fleur]"
+      },
+      {
+        "jp_id": "CSD01-LD01",
+        "jp_name": "Special Week [The Brightest Star in Japan!]"
+      },
+      {
+        "jp_id": "BP01-LD07",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "BP01-LD08",
+        "jp_name": "Zirnitra, Zealous Wings"
+      },
+      {
+        "jp_id": "SD04-LD01",
+        "jp_name": "Rowen"
+      },
+      {
+        "jp_id": "DSD01b-LD01",
+        "jp_name": "Forte, Duskwing Tyrant"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "SS02-U01EN",
+      "en_name": "Pulsefire Assault",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP02-112",
+        "jp_name": "Surefire Bullet"
+      },
+      {
+        "jp_id": "PR-047",
+        "jp_name": "Surefire Bullet"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "SS01-LD01EN",
+      "en_name": "Marie Malisse",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "SS01-U01EN",
+      "en_name": "Pulsefire Assault",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP02-112",
+        "jp_name": "Surefire Bullet"
+      },
+      {
+        "jp_id": "PR-047",
+        "jp_name": "Surefire Bullet"
+      }
+    ]
+  },
+  {
+    "matches": 4,
+    "enCard": {
+      "en_id": "BP09-005EN",
+      "en_name": "Paula, Gentle Warmth (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP13-014",
+        "jp_name": "Fairy Slugger (Evolved)"
+      },
+      {
+        "jp_id": "BP09-005",
+        "jp_name": "Paula, Passionate Warmth"
+      },
+      {
+        "jp_id": "BP09-P02",
+        "jp_name": "Paula, Passionate Warmth"
+      },
+      {
+        "jp_id": "PR-353",
+        "jp_name": "Fairy Slugger (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-019EN",
+      "en_name": "Celia, Hope's Strategist (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-042EN",
+      "en_name": "Mysterian Whitewyrm (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-069EN",
+      "en_name": "Virtuous Lindworm (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-090EN",
+      "en_name": "Vania, Kind Queen (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-110EN",
+      "en_name": "Ceryneian Lighthind (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 4,
+    "enCard": {
+      "en_id": "BP09-P02EN",
+      "en_name": "Paula, Gentle Warmth (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP13-014",
+        "jp_name": "Fairy Slugger (Evolved)"
+      },
+      {
+        "jp_id": "BP09-005",
+        "jp_name": "Paula, Passionate Warmth"
+      },
+      {
+        "jp_id": "BP09-P02",
+        "jp_name": "Paula, Passionate Warmth"
+      },
+      {
+        "jp_id": "PR-353",
+        "jp_name": "Fairy Slugger (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-P12EN",
+      "en_name": "Mysterian Whitewyrm (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-P24EN",
+      "en_name": "Virtuous Lindworm (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-P41EN",
+      "en_name": "Ceryneian Lighthind (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-SL05EN",
+      "en_name": "Celia, Hope's Strategist (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP09-SL20EN",
+      "en_name": "Vania, Kind Queen (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP08-003EN",
+      "en_name": "Orchis, Resolute Puppet (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 1,
+    "enCard": {
+      "en_id": "BP08-040EN",
+      "en_name": "Lovely-Heart Monika",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP08-040",
+        "jp_name": "Lovely Heart Monika"
+      }
+    ]
+  },
+  {
+    "matches": 1,
+    "enCard": {
+      "en_id": "BP08-067EN",
+      "en_name": "Draco Marionette",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP08-067",
+        "jp_name": "Marionette Dragon"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "BP08-072EN",
+      "en_name": "Tartarus, the Tormentor",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP08-072",
+        "jp_name": "Tartarus the Tormentor"
+      },
+      {
+        "jp_id": "BP08-P17",
+        "jp_name": "Tartarus the Tormentor"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP08-073EN",
+      "en_name": "Tartarus, the Tormentor (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP08-073",
+        "jp_name": "Tartarus the Tormentor (Evolved)"
+      },
+      {
+        "jp_id": "BP08-P18",
+        "jp_name": "Tartarus the Tormentor (Evolved)"
+      },
+      {
+        "jp_id": "BP07-083",
+        "jp_name": "Berserk Demon (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "BP08-P17EN",
+      "en_name": "Tartarus, the Tormentor",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP08-072",
+        "jp_name": "Tartarus the Tormentor"
+      },
+      {
+        "jp_id": "BP08-P17",
+        "jp_name": "Tartarus the Tormentor"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP08-P18EN",
+      "en_name": "Tartarus, the Tormentor (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP08-073",
+        "jp_name": "Tartarus the Tormentor (Evolved)"
+      },
+      {
+        "jp_id": "BP08-P18",
+        "jp_name": "Tartarus the Tormentor (Evolved)"
+      },
+      {
+        "jp_id": "BP07-083",
+        "jp_name": "Berserk Demon (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP08-SL03EN",
+      "en_name": "Orchis, Resolute Puppet (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 1,
+    "enCard": {
+      "en_id": "BP07-016EN",
+      "en_name": "Marvelously Mad Hatter",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP07-016",
+        "jp_name": "Marvelously Mad Matter"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-SP01aEN",
+      "en_name": "* (Asterisk)",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-003",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "CP02-SL03",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "PR-152",
+        "jp_name": "Miku Maekawa"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-SP01bEN",
+      "en_name": "* (Asterisk)",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-003",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "CP02-SL03",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "PR-152",
+        "jp_name": "Miku Maekawa"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-SP06aEN",
+      "en_name": "Hagoromo Komachi",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-038",
+        "jp_name": "Syuko Shiomi"
+      },
+      {
+        "jp_id": "CP02-P29",
+        "jp_name": "Syuko Shiomi"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-SP06bEN",
+      "en_name": "Hagoromo Komachi",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-038",
+        "jp_name": "Syuko Shiomi"
+      },
+      {
+        "jp_id": "CP02-P29",
+        "jp_name": "Syuko Shiomi"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-SP08aEN",
+      "en_name": "BRIGHT:LIGHTS",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-055",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "CP02-P43",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "PR-154",
+        "jp_name": "Fumika Sagisawa"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-SP08bEN",
+      "en_name": "BRIGHT:LIGHTS",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-055",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "CP02-P43",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "PR-154",
+        "jp_name": "Fumika Sagisawa"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-SP09aEN",
+      "en_name": "Fortuna Regina (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-070",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL14",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-SP09bEN",
+      "en_name": "Fortuna Regina (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-070",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL14",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-SP12aEN",
+      "en_name": "SugarSugar☆Mi〜n (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-088",
+        "jp_name": "Shin Sato (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL18",
+        "jp_name": "Shin Sato (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-SP12bEN",
+      "en_name": "SugarSugar☆Mi〜n (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-088",
+        "jp_name": "Shin Sato (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL18",
+        "jp_name": "Shin Sato (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-U01aEN",
+      "en_name": "* (Asterisk)",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-003",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "CP02-SL03",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "PR-152",
+        "jp_name": "Miku Maekawa"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-U01bEN",
+      "en_name": "* (Asterisk)",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-003",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "CP02-SL03",
+        "jp_name": "Miku Maekawa"
+      },
+      {
+        "jp_id": "PR-152",
+        "jp_name": "Miku Maekawa"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-U06aEN",
+      "en_name": "Hagoromo Komachi",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-038",
+        "jp_name": "Syuko Shiomi"
+      },
+      {
+        "jp_id": "CP02-P29",
+        "jp_name": "Syuko Shiomi"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-U06bEN",
+      "en_name": "Hagoromo Komachi",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-038",
+        "jp_name": "Syuko Shiomi"
+      },
+      {
+        "jp_id": "CP02-P29",
+        "jp_name": "Syuko Shiomi"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-U08aEN",
+      "en_name": "BRIGHT:LIGHTS",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-055",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "CP02-P43",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "PR-154",
+        "jp_name": "Fumika Sagisawa"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP02-U08bEN",
+      "en_name": "BRIGHT:LIGHTS",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-055",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "CP02-P43",
+        "jp_name": "Fumika Sagisawa"
+      },
+      {
+        "jp_id": "PR-154",
+        "jp_name": "Fumika Sagisawa"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-U09aEN",
+      "en_name": "Fortuna Regina (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-070",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL14",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-U09bEN",
+      "en_name": "Fortuna Regina (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-070",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL14",
+        "jp_name": "Ranko Kanzaki (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-U12aEN",
+      "en_name": "SugarSugar☆Mi〜n (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-088",
+        "jp_name": "Shin Sato (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL18",
+        "jp_name": "Shin Sato (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "CP02-U12bEN",
+      "en_name": "SugarSugar☆Mi〜n (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-088",
+        "jp_name": "Shin Sato (Evolved)"
+      },
+      {
+        "jp_id": "CP02-SL18",
+        "jp_name": "Shin Sato (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02c-LD01EN",
+      "en_name": "Mio Honda [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02c-LD%E2%93%8801EN",
+      "en_name": "Mio Honda [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02c-LD~s~01EN",
+      "en_name": "Mio Honda [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02b-LD01EN",
+      "en_name": "Rin Shibuya [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02b-LD%E2%93%8801EN",
+      "en_name": "Rin Shibuya [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02b-LD~s~01EN",
+      "en_name": "Rin Shibuya [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "CSD02a-003EN",
+      "en_name": "Miho Kohinata [P.C.S.]",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "ECP02-021",
+        "jp_name": "[Happiness Tune] Chieri Ogata"
+      },
+      {
+        "jp_id": "ECP02-P09",
+        "jp_name": "[Happiness Tune] Chieri Ogata"
+      },
+      {
+        "jp_id": "CP02-032",
+        "jp_name": "Miho Kohinata"
+      },
+      {
+        "jp_id": "CP02-P26",
+        "jp_name": "Miho Kohinata"
+      },
+      {
+        "jp_id": "CSD02a-003",
+        "jp_name": "Miho Kohinata [P.C.S]"
+      },
+      {
+        "jp_id": "CSD02a-SL03",
+        "jp_name": "Miho Kohinata [P.C.S]"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02a-LD01EN",
+      "en_name": "Uzuki Shimamura [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02a-LD%E2%93%8801EN",
+      "en_name": "Uzuki Shimamura [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 13,
+    "enCard": {
+      "en_id": "CSD02a-LD~s~01EN",
+      "en_name": "Uzuki Shimamura [Stage of Magic]",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR02",
+        "jp_name": "Oluon, Tracks of War"
+      },
+      {
+        "jp_id": "CP03-LD02",
+        "jp_name": "Aichi Sendou [Guide of Bonds]"
+      },
+      {
+        "jp_id": "BP10-LD02",
+        "jp_name": "Octrice, the Eighth Omen"
+      },
+      {
+        "jp_id": "BP09-LD01",
+        "jp_name": "Momo, A New Adventure"
+      },
+      {
+        "jp_id": "BP08-LD02",
+        "jp_name": "Melna, Princess of Munmarath"
+      },
+      {
+        "jp_id": "CP02-LD02",
+        "jp_name": "Airi Totoki [Private Maid]"
+      },
+      {
+        "jp_id": "BP05-LD02",
+        "jp_name": "Albert, Tempestuous Doom"
+      },
+      {
+        "jp_id": "BP04-LD02",
+        "jp_name": "Suzaku Kururugi"
+      },
+      {
+        "jp_id": "CP01-LD02",
+        "jp_name": "Narita Taishin [A Bazaar Outing]"
+      },
+      {
+        "jp_id": "BP02-LD02",
+        "jp_name": "Prim, Adventuring Princess"
+      },
+      {
+        "jp_id": "BP01-LD03",
+        "jp_name": "Erika"
+      },
+      {
+        "jp_id": "BP01-LD04",
+        "jp_name": "Aurelia, Blooming Blade"
+      },
+      {
+        "jp_id": "SD02-LD01",
+        "jp_name": "Erika"
+      }
+    ]
+  },
+  {
+    "matches": 6,
+    "enCard": {
+      "en_id": "CSD02a-SL03EN",
+      "en_name": "Miho Kohinata [P.C.S.]",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "ECP02-021",
+        "jp_name": "[Happiness Tune] Chieri Ogata"
+      },
+      {
+        "jp_id": "ECP02-P09",
+        "jp_name": "[Happiness Tune] Chieri Ogata"
+      },
+      {
+        "jp_id": "CP02-032",
+        "jp_name": "Miho Kohinata"
+      },
+      {
+        "jp_id": "CP02-P26",
+        "jp_name": "Miho Kohinata"
+      },
+      {
+        "jp_id": "CSD02a-003",
+        "jp_name": "Miho Kohinata [P.C.S]"
+      },
+      {
+        "jp_id": "CSD02a-SL03",
+        "jp_name": "Miho Kohinata [P.C.S]"
+      }
+    ]
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP06-081EN",
+      "en_name": "Zashiki-Warashi (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "GFB01a-T04EN",
+      "en_name": "Leonidas's Resolve",
+      "en_type": [
+        "Amulet",
+        "Token"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 9,
+    "enCard": {
+      "en_id": "BP04-052EN",
+      "en_name": "Dazzling Healer (Evolved)",
+      "en_type": [
+        "Follower",
+        "Evolved"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP14-038",
+        "jp_name": "Riley, Astral Shaman (Evolved)"
+      },
+      {
+        "jp_id": "BP14-048",
+        "jp_name": "Chakram Wizard (Evolved)"
+      },
+      {
+        "jp_id": "BP14-SL10",
+        "jp_name": "Riley, Astral Shaman (Evolved)"
+      },
+      {
+        "jp_id": "BP07-040",
+        "jp_name": "Eleanor, Cosmic Flower (Evolved)"
+      },
+      {
+        "jp_id": "BP07-049",
+        "jp_name": "Magiblade Witch (Evolved)"
+      },
+      {
+        "jp_id": "BP04-052",
+        "jp_name": "Dazzling Healer (Evolve)"
+      },
+      {
+        "jp_id": "BP01-060",
+        "jp_name": "Spectral Wizard (Evolved)"
+      },
+      {
+        "jp_id": "BP01-P13",
+        "jp_name": "Spectral Wizard (Evolved)"
+      },
+      {
+        "jp_id": "PR-217",
+        "jp_name": "Eleanor, Cosmic Flower (Evolved)"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP03-036EN",
+      "en_name": "Witch of Calamity, Millie Parfait",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP03-038",
+        "jp_name": "Wizardess of Oz"
+      },
+      {
+        "jp_id": "BP03-SL07",
+        "jp_name": "Wizardess of Oz"
+      },
+      {
+        "jp_id": "BP03-U03",
+        "jp_name": "Wizardess of Oz"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "BP03-047EN",
+      "en_name": "It's a Sweets Buffet!",
+      "en_type": [
+        "Amulet"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP03-048",
+        "jp_name": "Gingerbread House"
+      },
+      {
+        "jp_id": "PR-121",
+        "jp_name": "Gingerbread House"
+      }
+    ]
+  },
+  {
+    "matches": 5,
+    "enCard": {
+      "en_id": "BP03-054EN",
+      "en_name": "The Cauldron of Calamity",
+      "en_type": [
+        "Amulet"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP14-052",
+        "jp_name": "Grand Spire"
+      },
+      {
+        "jp_id": "BP03-054",
+        "jp_name": "Witch's Cauldron"
+      },
+      {
+        "jp_id": "BP03-P15",
+        "jp_name": "Witch's Cauldron"
+      },
+      {
+        "jp_id": "PR-341",
+        "jp_name": "Witch's Cauldron"
+      },
+      {
+        "jp_id": "PR-398",
+        "jp_name": "Grand Spire"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "BP03-LD02EN",
+      "en_name": "Daria, Dimension Drifter",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR03",
+        "jp_name": "Lhynkal, Foolish Sage"
+      },
+      {
+        "jp_id": "CP03-LD03",
+        "jp_name": "Asaka Narumi [On the Enchanting Stage]"
+      },
+      {
+        "jp_id": "BP10-LD03",
+        "jp_name": "Raio, the Ninth Omen"
+      },
+      {
+        "jp_id": "BP10-LD04",
+        "jp_name": "Lishenna, the Second Omen"
+      },
+      {
+        "jp_id": "BP07-LD01",
+        "jp_name": "Emmylou, Wee Witchette"
+      },
+      {
+        "jp_id": "CP02-LD03",
+        "jp_name": "Mizuki Kawashima [Ambivalent Act]"
+      },
+      {
+        "jp_id": "BP05-LD03",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      },
+      {
+        "jp_id": "BP04-LD03",
+        "jp_name": "Cornelia li Britannia"
+      },
+      {
+        "jp_id": "BP04-LD04",
+        "jp_name": "Jeremiah Gottwald"
+      },
+      {
+        "jp_id": "BP03-LD02",
+        "jp_name": "Daria, Dimensional Drifter"
+      },
+      {
+        "jp_id": "CP01-LD03",
+        "jp_name": "Kawakami Princess [Princess Bride]"
+      },
+      {
+        "jp_id": "BP01-LD05",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "BP01-LD06",
+        "jp_name": "Erasmus, Magical Sage"
+      },
+      {
+        "jp_id": "SD03-LD01",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "DSD01a-LD01",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "BP03-LD%E2%93%8801EN",
+      "en_name": "Witch of Calamity, Millie Parfait",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR03",
+        "jp_name": "Lhynkal, Foolish Sage"
+      },
+      {
+        "jp_id": "CP03-LD03",
+        "jp_name": "Asaka Narumi [On the Enchanting Stage]"
+      },
+      {
+        "jp_id": "BP10-LD03",
+        "jp_name": "Raio, the Ninth Omen"
+      },
+      {
+        "jp_id": "BP10-LD04",
+        "jp_name": "Lishenna, the Second Omen"
+      },
+      {
+        "jp_id": "BP07-LD01",
+        "jp_name": "Emmylou, Wee Witchette"
+      },
+      {
+        "jp_id": "CP02-LD03",
+        "jp_name": "Mizuki Kawashima [Ambivalent Act]"
+      },
+      {
+        "jp_id": "BP05-LD03",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      },
+      {
+        "jp_id": "BP04-LD03",
+        "jp_name": "Cornelia li Britannia"
+      },
+      {
+        "jp_id": "BP04-LD04",
+        "jp_name": "Jeremiah Gottwald"
+      },
+      {
+        "jp_id": "BP03-LD02",
+        "jp_name": "Daria, Dimensional Drifter"
+      },
+      {
+        "jp_id": "CP01-LD03",
+        "jp_name": "Kawakami Princess [Princess Bride]"
+      },
+      {
+        "jp_id": "BP01-LD05",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "BP01-LD06",
+        "jp_name": "Erasmus, Magical Sage"
+      },
+      {
+        "jp_id": "SD03-LD01",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "DSD01a-LD01",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      }
+    ]
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "BP03-LD~s~01EN",
+      "en_name": "Witch of Calamity, Millie Parfait",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR03",
+        "jp_name": "Lhynkal, Foolish Sage"
+      },
+      {
+        "jp_id": "CP03-LD03",
+        "jp_name": "Asaka Narumi [On the Enchanting Stage]"
+      },
+      {
+        "jp_id": "BP10-LD03",
+        "jp_name": "Raio, the Ninth Omen"
+      },
+      {
+        "jp_id": "BP10-LD04",
+        "jp_name": "Lishenna, the Second Omen"
+      },
+      {
+        "jp_id": "BP07-LD01",
+        "jp_name": "Emmylou, Wee Witchette"
+      },
+      {
+        "jp_id": "CP02-LD03",
+        "jp_name": "Mizuki Kawashima [Ambivalent Act]"
+      },
+      {
+        "jp_id": "BP05-LD03",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      },
+      {
+        "jp_id": "BP04-LD03",
+        "jp_name": "Cornelia li Britannia"
+      },
+      {
+        "jp_id": "BP04-LD04",
+        "jp_name": "Jeremiah Gottwald"
+      },
+      {
+        "jp_id": "BP03-LD02",
+        "jp_name": "Daria, Dimensional Drifter"
+      },
+      {
+        "jp_id": "CP01-LD03",
+        "jp_name": "Kawakami Princess [Princess Bride]"
+      },
+      {
+        "jp_id": "BP01-LD05",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "BP01-LD06",
+        "jp_name": "Erasmus, Magical Sage"
+      },
+      {
+        "jp_id": "SD03-LD01",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "DSD01a-LD01",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP03-SP01EN",
+      "en_name": "Witch of Calamity, Millie Parfait",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP03-038",
+        "jp_name": "Wizardess of Oz"
+      },
+      {
+        "jp_id": "BP03-SL07",
+        "jp_name": "Wizardess of Oz"
+      },
+      {
+        "jp_id": "BP03-U03",
+        "jp_name": "Wizardess of Oz"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP01-078EN",
+      "en_name": "T. M. Opera O",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP01-078",
+        "jp_name": "T.M. Opera O"
+      },
+      {
+        "jp_id": "CP01-P60",
+        "jp_name": "T.M. Opera O"
+      },
+      {
+        "jp_id": "CSD01-029",
+        "jp_name": "T.M. Opera O"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CP01-P60EN",
+      "en_name": "T. M. Opera O",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP01-078",
+        "jp_name": "T.M. Opera O"
+      },
+      {
+        "jp_id": "CP01-P60",
+        "jp_name": "T.M. Opera O"
+      },
+      {
+        "jp_id": "CSD01-029",
+        "jp_name": "T.M. Opera O"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "CSD01-029EN",
+      "en_name": "T. M. Opera O",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP01-078",
+        "jp_name": "T.M. Opera O"
+      },
+      {
+        "jp_id": "CP01-P60",
+        "jp_name": "T.M. Opera O"
+      },
+      {
+        "jp_id": "CSD01-029",
+        "jp_name": "T.M. Opera O"
+      }
+    ]
+  },
+  {
+    "matches": 3,
+    "enCard": {
+      "en_id": "BP02-012EN",
+      "en_name": "Dwarf Perfumer",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP14-006",
+        "jp_name": "Spirit of the Spring"
+      },
+      {
+        "jp_id": "ETD03-011",
+        "jp_name": "Dwarf Perfurmer"
+      },
+      {
+        "jp_id": "BP02-012",
+        "jp_name": "Dwarf Perfurmer"
+      }
+    ]
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "BP02-T03EN",
+      "en_name": "Leonidas's Resolve",
+      "en_type": [
+        "Amulet",
+        "Token"
+      ]
+    },
+    "jpCards": []
+  },
+  {
+    "matches": 15,
+    "enCard": {
+      "en_id": "PR-041EN",
+      "en_name": "Witch of Calamity, Millie Parfait",
+      "en_type": [
+        "Leader"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "BP15-PR03",
+        "jp_name": "Lhynkal, Foolish Sage"
+      },
+      {
+        "jp_id": "CP03-LD03",
+        "jp_name": "Asaka Narumi [On the Enchanting Stage]"
+      },
+      {
+        "jp_id": "BP10-LD03",
+        "jp_name": "Raio, the Ninth Omen"
+      },
+      {
+        "jp_id": "BP10-LD04",
+        "jp_name": "Lishenna, the Second Omen"
+      },
+      {
+        "jp_id": "BP07-LD01",
+        "jp_name": "Emmylou, Wee Witchette"
+      },
+      {
+        "jp_id": "CP02-LD03",
+        "jp_name": "Mizuki Kawashima [Ambivalent Act]"
+      },
+      {
+        "jp_id": "BP05-LD03",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      },
+      {
+        "jp_id": "BP04-LD03",
+        "jp_name": "Cornelia li Britannia"
+      },
+      {
+        "jp_id": "BP04-LD04",
+        "jp_name": "Jeremiah Gottwald"
+      },
+      {
+        "jp_id": "BP03-LD02",
+        "jp_name": "Daria, Dimensional Drifter"
+      },
+      {
+        "jp_id": "CP01-LD03",
+        "jp_name": "Kawakami Princess [Princess Bride]"
+      },
+      {
+        "jp_id": "BP01-LD05",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "BP01-LD06",
+        "jp_name": "Erasmus, Magical Sage"
+      },
+      {
+        "jp_id": "SD03-LD01",
+        "jp_name": "Isabelle"
+      },
+      {
+        "jp_id": "DSD01a-LD01",
+        "jp_name": "Anne & Grea, Bonds Everlasting"
+      }
+    ]
+  },
+  {
+    "matches": 2,
+    "enCard": {
+      "en_id": "PR-146EN",
+      "en_name": "Riamu's Reverie",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-062",
+        "jp_name": "Unbound Emotion"
+      },
+      {
+        "jp_id": "CP02-P50",
+        "jp_name": "Unbound Emotion"
+      }
+    ]
+  },
+  {
+    "matches": 4,
+    "enCard": {
+      "en_id": "PR-147EN",
+      "en_name": "Sweet Sentiments",
+      "en_type": [
+        "Spell"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-075",
+        "jp_name": "Whispers of a Dream"
+      },
+      {
+        "jp_id": "CP02-085",
+        "jp_name": "Last Daylight"
+      },
+      {
+        "jp_id": "CP02-P60",
+        "jp_name": "Whispers of a Dream"
+      },
+      {
+        "jp_id": "CP02-P70",
+        "jp_name": "Last Daylight"
+      }
+    ]
+  },
+  {
+    "matches": 12,
+    "enCard": {
+      "en_id": "PR-153EN",
+      "en_name": "Enchanted Slippers",
+      "en_type": [
+        "Spell",
+        "Token"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-T01",
+        "jp_name": "Cute Earrings"
+      },
+      {
+        "jp_id": "CP02-T02",
+        "jp_name": "Cute Pendant"
+      },
+      {
+        "jp_id": "CP02-T03",
+        "jp_name": "Cute Tiara"
+      },
+      {
+        "jp_id": "CP02-T04",
+        "jp_name": "Cool Earrings"
+      },
+      {
+        "jp_id": "CP02-T05",
+        "jp_name": "Cool Pendant"
+      },
+      {
+        "jp_id": "CP02-T06",
+        "jp_name": "Cool Tiara"
+      },
+      {
+        "jp_id": "CP02-T07",
+        "jp_name": "Passion Earrings"
+      },
+      {
+        "jp_id": "CP02-T08",
+        "jp_name": "Passion Pendant"
+      },
+      {
+        "jp_id": "CP02-T09",
+        "jp_name": "Passion Tiara"
+      },
+      {
+        "jp_id": "CSD02c-T01",
+        "jp_name": "Passion Earrings"
+      },
+      {
+        "jp_id": "CSD02b-T01",
+        "jp_name": "Cool Earrings"
+      },
+      {
+        "jp_id": "CSD02a-T01",
+        "jp_name": "Cute Earrings"
+      }
+    ]
+  },
+  {
+    "matches": 12,
+    "enCard": {
+      "en_id": "PR-154EN",
+      "en_name": "Enchanted Dress",
+      "en_type": [
+        "Spell",
+        "Token"
+      ]
+    },
+    "jpCards": [
+      {
+        "jp_id": "CP02-T01",
+        "jp_name": "Cute Earrings"
+      },
+      {
+        "jp_id": "CP02-T02",
+        "jp_name": "Cute Pendant"
+      },
+      {
+        "jp_id": "CP02-T03",
+        "jp_name": "Cute Tiara"
+      },
+      {
+        "jp_id": "CP02-T04",
+        "jp_name": "Cool Earrings"
+      },
+      {
+        "jp_id": "CP02-T05",
+        "jp_name": "Cool Pendant"
+      },
+      {
+        "jp_id": "CP02-T06",
+        "jp_name": "Cool Tiara"
+      },
+      {
+        "jp_id": "CP02-T07",
+        "jp_name": "Passion Earrings"
+      },
+      {
+        "jp_id": "CP02-T08",
+        "jp_name": "Passion Pendant"
+      },
+      {
+        "jp_id": "CP02-T09",
+        "jp_name": "Passion Tiara"
+      },
+      {
+        "jp_id": "CSD02c-T01",
+        "jp_name": "Passion Earrings"
+      },
+      {
+        "jp_id": "CSD02b-T01",
+        "jp_name": "Cool Earrings"
+      },
+      {
+        "jp_id": "CSD02a-T01",
+        "jp_name": "Cute Earrings"
+      }
+    ]
+  },
+  {
+    "matches": 0,
+    "enCard": {
+      "en_id": "NY2024-001EN",
+      "en_name": "New Year's Soul Devil",
+      "en_type": [
+        "Follower"
+      ]
+    },
+    "jpCards": []
+  }
+]
