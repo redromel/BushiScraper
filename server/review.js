@@ -7,21 +7,22 @@ const addIfMissing = (arr, v) => {
   if (!arr.includes(v)) arr.push(v);
   return arr;
 };
-const tidy = (c) => {
+const sortIds = (c) => {
   if (Array.isArray(c.alternate_ids))
     c.alternate_ids = [...new Set(c.alternate_ids)].sort();
 };
-const link = (a, b) => {
-  a.alternate_ids = addIfMissing(a.alternate_ids, b.card_id);
-  b.alternate_ids = addIfMissing(b.alternate_ids, a.card_id);
-  tidy(a);
-  tidy(b);
+const linkCards = (enCard, jpCard) => {
+  enCard.alternate_ids = addIfMissing(enCard.alternate_ids, jpCard.card_id);
+  jpCard.alternate_ids = addIfMissing(jpCard.alternate_ids, enCard.card_id);
+  sortIds(enCard);
+  sortIds(jpCard);
 };
 
 export async function runManualReview({
-  dbPath = "./new_cards.json",
-  reviewPath = "./review_cards.json",
-  outPath = "./reviewed_cards.json",
+  dbPath = "data/new_cards.json",
+  reviewPath = "data/review_cards.json",
+  outPath = "data/reviewed_cards.json",
+  rejectedPath = "data/rejected_cards.json"
 } = {}) {
   const db = JSON.parse(await fs.readFile(dbPath, "utf-8"));
   const byId = new Map(db.map((c) => [c.card_id, c]));
@@ -34,7 +35,7 @@ export async function runManualReview({
   let approved = 0,
     rejected = 0,
     manualLinked = 0;
-
+  const rejectedList = [];
   try {
     for (const item of items) {
       const en = byId.get(item.enCard.en_id);
@@ -56,11 +57,12 @@ export async function runManualReview({
         console.table([{ card_id: jp.card_id, card_name: jp.card_name }]);
         const ans = await rl.question("Accept this JP? (Y/N) ");
         if (ans.trim().toLowerCase().startsWith("y")) {
-          link(en, jp);
+          linkCards(en, jp);
           approved++;
           console.log("✓ Linked");
         } else {
           rejected++;
+          rejectedList.push(jp);
           console.log("✗ Rejected");
         }
       }
@@ -74,12 +76,12 @@ export async function runManualReview({
         for (const id of extra.split(/[\s,]+/).filter(Boolean)) {
           const jp = byId.get(id);
           if (!jp) {
-            console.log(`  ⚠ Not found: ${id}`);
+            console.log(`  Not found: ${id}`);
             continue;
           }
-          link(en, jp);
+          linkCards(en, jp);
           manualLinked++;
-          console.log(`  ✓ Manually linked ${id}`);
+          console.log(`   Manually linked ${id}`);
         }
       }
     }
@@ -88,10 +90,12 @@ export async function runManualReview({
   }
 
   await fs.writeFile(outPath, JSON.stringify(db, null, 2), "utf-8");
+  await fs.writeFile(rejectedPath, JSON.stringify(rejectedList,null,2),"utf-8");
   console.log(
     `Review done: approved=${approved}, rejected=${rejected}, manual=${manualLinked}`
   );
   console.log(`Wrote ${outPath}`);
+  console.log(`Wrote ${rejectedPath}`);
 }
 
 runManualReview();
