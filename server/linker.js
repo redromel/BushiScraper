@@ -81,16 +81,10 @@ const itemReview = (enCard, candidates) => ({
 });
 
 // Matches En and Jp card equivalents
-export async function matchJpAndEn(
-  inPath = "./cards.json",
-  outPath = "./new_cards.json",
-  reviewFilePath = "./review_cards.json",
-  skipArray = ["gloryfinder", "evolution point"]
-) {
-  const db = JSON.parse(await fs.readFile(inPath, "utf-8"));
+export async function matchJpAndEn(database) {
 
-  const cardsEn = db.filter((card) => (card.lang || "").toLowerCase() === "en");
-  const cardsJp = db.filter((card) => (card.lang || "").toLowerCase() === "jp");
+  const cardsEn = database.filter((card) => (card.lang || "").toLowerCase() === "en");
+  const cardsJp = database.filter((card) => (card.lang || "").toLowerCase() === "jp");
 
   const jpMapTitle = createIndex(cardsJp, (c) => norm(c.card_name));
   const jpMapAttr = createIndex(cardsJp, makeKey);
@@ -134,17 +128,9 @@ export async function matchJpAndEn(
     }
   }
 
-  await fs.writeFile(
-    reviewFilePath,
-    JSON.stringify(cardReview, null, 2),
-    "utf-8"
-  );
-  await fs.writeFile(
-    outPath,
-    JSON.stringify([...cardsEn, ...cardsJp], null, 2),
-    "utf-8"
-  );
   console.log(`Completed Matching, Items to Review:  ${cardReview.length}`);
+  const reviewedDb = [...cardsEn, ...cardsJp];
+  return { reviewedDb, cardReview };
 }
 
 matchJpAndEn();

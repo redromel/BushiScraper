@@ -18,15 +18,8 @@ const linkCards = (enCard, jpCard) => {
   sortIds(jpCard);
 };
 
-export async function runManualReview({
-  dbPath = "data/new_cards.json",
-  reviewPath = "data/review_cards.json",
-  outPath = "data/reviewed_cards.json",
-  rejectedPath = "data/rejected_cards.json"
-} = {}) {
-  const db = JSON.parse(await fs.readFile(dbPath, "utf-8"));
-  const byId = new Map(db.map((c) => [c.card_id, c]));
-  const items = JSON.parse(await fs.readFile(reviewPath, "utf-8"));
+export async function runManualReview(database, reviewItems) {
+  const byId = new Map(database.map((c) => [c.card_id, c]));
 
   const rl = readline.createInterface({
     input: process.stdin,
@@ -37,7 +30,7 @@ export async function runManualReview({
     manualLinked = 0;
   const rejectedList = [];
   try {
-    for (const item of items) {
+    for (const item of reviewItems) {
       const en = byId.get(item.enCard.en_id);
       if (!en) {
         console.log(`EN not found: ${item.enCard.en_id}`);
@@ -89,13 +82,10 @@ export async function runManualReview({
     rl.close();
   }
 
-  await fs.writeFile(outPath, JSON.stringify(db, null, 2), "utf-8");
-  await fs.writeFile(rejectedPath, JSON.stringify(rejectedList,null,2),"utf-8");
   console.log(
     `Review done: approved=${approved}, rejected=${rejected}, manual=${manualLinked}`
   );
-  console.log(`Wrote ${outPath}`);
-  console.log(`Wrote ${rejectedPath}`);
+  return { database, rejectedList };
 }
 
 runManualReview();
