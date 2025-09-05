@@ -1,4 +1,3 @@
-import fs from "fs/promises";
 import readline from "node:readline/promises";
 
 const addIfMissing = (arr, v) => {
@@ -18,6 +17,20 @@ const linkCards = (enCard, jpCard) => {
   sortIds(jpCard);
 };
 
+/**
+ * Runs an interactive, terminal-based review flow to confirm or add JP matches
+ * for a list of unresolved EN cards. Updates `database` in-place by linking
+ * accepted pairs via `alternate_ids`.
+ *
+ * Flow:
+ *  - For each review item: show EN, iterate JP candidates, prompt Y/N.
+ *  - Optionally accept manual JP `card_id`s (comma/space separated).
+ *  - Tracks approvals, rejections, and manual links; returns rejected JP cards.
+ *
+ * @param {Card[]} database - Full card database (mixed languages).
+ * @param {ReviewItem[]} reviewItems - Items produced by the matcher for manual resolution.
+ * @returns {Promise<{ database: Card[], rejectedList: Card[] }>} Resolves with the mutated database and list of rejected JP cards.
+ */
 export async function runManualReview(database, reviewItems) {
   const byId = new Map(database.map((c) => [c.card_id, c]));
 
@@ -87,5 +100,3 @@ export async function runManualReview(database, reviewItems) {
   );
   return { database, rejectedList };
 }
-
-runManualReview();
