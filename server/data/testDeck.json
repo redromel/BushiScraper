@@ -1,0 +1,444 @@
+[
+  {
+    "card_name": "Isabelle",
+    "card_id": "BP01-LD05EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Leader"
+    ],
+    "card_trait": [
+      null
+    ],
+    "alternate_ids": [
+      "BP01-LD05",
+      "BP01-LD05EN",
+      "BP01-LD06",
+      "BP01-LD06EN",
+      "BP03-LD%E2%93%8801EN",
+      "BP03-LD02",
+      "BP03-LD02EN",
+      "BP03-LD~s~01EN",
+      "BP04-LD03",
+      "BP04-LD03EN",
+      "BP04-LD04",
+      "BP04-LD04EN",
+      "BP05-LD03",
+      "BP05-LD03EN",
+      "BP07-LD01",
+      "BP07-LD01EN",
+      "BP10-LD03",
+      "BP10-LD04",
+      "BP10-LD06EN",
+      "BP10-LD07EN",
+      "CP01-LD03",
+      "CP01-LD03EN",
+      "CP02-LD03",
+      "CP02-LD03EN",
+      "CP03-LD03",
+      "CP03-LD03EN",
+      "CP03-LD09EN",
+      "DSD01a-LD01",
+      "GFB01b-LD01EN",
+      "PR-041EN",
+      "SD03-LD01",
+      "SD03-LD01EN"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Beastfaced Mage",
+    "card_id": "BP09-057EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Mage",
+      "Beast"
+    ],
+    "alternate_ids": [
+      "BP09-057EN",
+      "PR-222EN",
+      "BP09-048"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Magical Augmentation",
+    "card_id": "BP10-053EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Mage"
+    ],
+    "alternate_ids": [
+      "BP10-053EN",
+      "PR-270EN",
+      "BP10-053",
+      "PR-298"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Angelic Barrage",
+    "card_id": "BP01-180EN",
+    "lang": "en",
+    "card_class": "Neutral",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Angel"
+    ],
+    "alternate_ids": [
+      "SD03-020EN",
+      "SD01-020EN",
+      "BP01-180EN",
+      "PR-018EN",
+      "ETD02-019",
+      "BP01-180",
+      "SD03-020",
+      "SD01-020",
+      "PR-002"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Gingerbread House",
+    "card_id": "BP03-046EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Amulet"
+    ],
+    "card_trait": [
+      "Earth Sigil",
+      "Fable"
+    ],
+    "alternate_ids": [
+      "BP03-046EN",
+      "BP03-047EN",
+      "BP03-048",
+      "PR-121"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Witch's Cauldron",
+    "card_id": "BP03-053EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Amulet"
+    ],
+    "card_trait": [
+      "Mage",
+      "Earth Sigil"
+    ],
+    "alternate_ids": [
+      "BP03-054EN",
+      "BP03-053EN",
+      "BP03-P15EN",
+      "BP03-054",
+      "BP03-P15",
+      "PR-341"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Teachings of Creation",
+    "card_id": "BP01-075EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Amulet"
+    ],
+    "card_trait": [
+      "Earth Sigil"
+    ],
+    "alternate_ids": [
+      "BP01-075EN",
+      "BP01-075"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Rabbit Mage",
+    "card_id": "BP08-048EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Mage",
+      "Beast"
+    ],
+    "alternate_ids": [
+      "BP08-048EN",
+      "BP08-048"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Red-Hot Ritual",
+    "card_id": "BP02-051EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Amulet"
+    ],
+    "card_trait": [
+      "Earth Sigil"
+    ],
+    "alternate_ids": [
+      "BP02-051EN",
+      "PR-066EN",
+      "BP02-051",
+      "PR-022"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Summoning Drills",
+    "card_id": "BP09-054EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Amulet"
+    ],
+    "card_trait": [
+      "Alchemist",
+      "Earth Sigil"
+    ],
+    "alternate_ids": [
+      "BP09-054EN",
+      "PR-207EN",
+      "BP09-045",
+      "PR-410"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Ceridwen, Eternity Hunter",
+    "card_id": "BP09-035EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Alchemist",
+      "Forbidden"
+    ],
+    "alternate_ids": [
+      "BP09-035EN",
+      "BP09-SL07EN",
+      "BP09-035",
+      "BP09-SL07"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Riley, Hydroshaman",
+    "card_id": "BP07-038EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Mage"
+    ],
+    "alternate_ids": [
+      "BP07-038EN",
+      "BP07-U03EN",
+      "BP07-038",
+      "BP07-U03"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Ancient Alchemist",
+    "card_id": "BP01-054EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Alchemist"
+    ],
+    "alternate_ids": [
+      "BP01-054EN",
+      "BP01-054"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Mirror of Truth",
+    "card_id": "BP06-051EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Amulet"
+    ],
+    "card_trait": [
+      "Mage",
+      "Earth Sigil"
+    ],
+    "alternate_ids": [
+      "BP06-051EN",
+      "PR-158EN",
+      "BP06-053"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Price of Magic",
+    "card_id": "BP01-066EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Amulet"
+    ],
+    "card_trait": [
+      "Earth Sigil"
+    ],
+    "alternate_ids": [
+      "BP01-066EN",
+      "BP01-P14EN",
+      "BP01-066",
+      "BP01-P14"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Sweet-Tooth Medusa",
+    "card_id": "BP08-035EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Mage",
+      "Gorgon"
+    ],
+    "alternate_ids": [
+      "BP08-035",
+      "BP08-035EN",
+      "BP08-SL07",
+      "BP08-SL07EN",
+      "GFD02-010EN"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Faust, Truthseeker",
+    "card_id": "BP09-037EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Alchemist"
+    ],
+    "alternate_ids": [
+      "BP09-037EN",
+      "BP09-SL09EN",
+      "BP09-U03EN",
+      "BP09-037",
+      "BP09-SL09",
+      "BP09-U03"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Rabbit Mage (Evolved)",
+    "card_id": "BP08-049EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Mage",
+      "Beast"
+    ],
+    "alternate_ids": [
+      "BP08-049EN",
+      "PR-233EN",
+      "BP08-049"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Ceridwen, Eternity Hunter (Evolved)",
+    "card_id": "BP09-036EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Alchemist",
+      "Forbidden"
+    ],
+    "alternate_ids": [
+      "BP09-036EN",
+      "BP09-SL08EN",
+      "BP09-036",
+      "BP09-SL08"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Ancient Alchemist (Evolved)",
+    "card_id": "BP01-055EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Alchemist"
+    ],
+    "alternate_ids": [
+      "BP01-055EN",
+      "BP01-055"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Sweet-Tooth Medusa (Evolved)",
+    "card_id": "BP08-036EN",
+    "lang": "en",
+    "card_class": "Runecraft",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Mage",
+      "Gorgon"
+    ],
+    "alternate_ids": [
+      "BP08-036EN",
+      "BP08-SL08EN",
+      "GFD02-011EN",
+      "BP08-036",
+      "BP08-SL08"
+    ],
+    "quantity": 2
+  }
+]

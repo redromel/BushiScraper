@@ -1,0 +1,562 @@
+[
+  {
+    "card_name": "Rowen",
+    "card_id": "BP01-LD07EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Leader"
+    ],
+    "card_trait": [
+      null
+    ],
+    "alternate_ids": [
+      "BP01-LD07",
+      "BP01-LD07EN",
+      "BP01-LD08",
+      "BP01-LD08EN",
+      "BP03-LD03",
+      "BP03-LD03EN",
+      "BP04-LD05",
+      "BP04-LD05EN",
+      "BP04-LD06",
+      "BP04-LD06EN",
+      "BP05-LD04",
+      "BP05-LD04EN",
+      "BP06-LD02",
+      "BP06-LD02EN",
+      "BP07-LD02",
+      "BP07-LD02EN",
+      "BP08-LD03",
+      "BP10-LD05",
+      "BP10-LD08EN",
+      "BP10-LD09EN",
+      "CP01-LD04",
+      "CP01-LD04EN",
+      "CP01-LD05",
+      "CP01-LD05EN",
+      "CP02-LD04",
+      "CP02-LD04EN",
+      "CP03-LD04",
+      "CP03-LD04EN",
+      "CP03-LD10EN",
+      "CSD01-LD01",
+      "CSD01-LD01EN",
+      "CSD03b-LD01",
+      "CSD03b-LD01EN",
+      "DSD01b-LD01",
+      "ETD01-LD01",
+      "GFD02-LD01EN",
+      "SD04-LD01",
+      "SD04-LD01EN",
+      "SS02-LD01EN"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Blazing Breath",
+    "card_id": "BP01-098EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "BP01-098",
+      "BP01-098EN",
+      "BP01-P20",
+      "BP01-P20EN",
+      "DSD01b-018",
+      "GFB01d-060EN",
+      "GFD01-069EN",
+      "GFD02-068EN",
+      "PR-123EN",
+      "PR-124EN",
+      "PR-125EN",
+      "PR-211",
+      "SD04-015",
+      "SD04-015EN",
+      "SD08-019"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Wyvern Guard, Barri",
+    "card_id": "CSD03b-007EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Vanguard",
+      "Kagero"
+    ],
+    "alternate_ids": [
+      "CSD03b-007EN",
+      "CSD03b-P04EN",
+      "CSD03b-007",
+      "CSD03b-P04"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Whitefrost Whisper",
+    "card_id": "BP06-058EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Dragonewt"
+    ],
+    "alternate_ids": [
+      "BP06-058EN",
+      "PR-132EN",
+      "BP06-061",
+      "PR-317"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Force of the Dragonewt",
+    "card_id": "SS02-001EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Dragonewt"
+    ],
+    "alternate_ids": [
+      "BP09-073EN",
+      "SS02-001EN",
+      "BP09-058"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Dragon Oracle",
+    "card_id": "GFB01c-028EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "DSD01b-009",
+      "GFB01c-028EN",
+      "GFD02-030EN",
+      "PR-010",
+      "PR-209",
+      "PR-235EN",
+      "SD04-002",
+      "SD04-002EN",
+      "SD08-010"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Roy, Dragoncleaver",
+    "card_id": "BP09-074EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Draconic Duelist",
+      "Cutthroat"
+    ],
+    "alternate_ids": [
+      "BP09-059",
+      "BP09-074EN",
+      "BP09-P18",
+      "BP09-P27EN",
+      "DSD01b-014",
+      "GFD02-043EN",
+      "SD08-014"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Demonic Dragon Mage, Kimnara",
+    "card_id": "CP03-075EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Vanguard",
+      "Kagero"
+    ],
+    "alternate_ids": [
+      "CP03-075EN",
+      "CP03-P52EN",
+      "CP03-075",
+      "CP03-P52"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Serpent Wrath",
+    "card_id": "BP01-090EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "BP01-090",
+      "BP01-090EN",
+      "GFB01b-044EN",
+      "GFB01d-042EN",
+      "GFD02-048EN",
+      "PR-098EN",
+      "PR-123",
+      "SS02-003EN"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Akari Tsujino",
+    "card_id": "CP02-052EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "iM@S CG",
+      "Cute"
+    ],
+    "alternate_ids": [
+      "CP02-052EN",
+      "CP02-SL10EN",
+      "CP02-052",
+      "CP02-SL10"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Aiela, Devoted Knight",
+    "card_id": "BP10-056EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Dragonheart"
+    ],
+    "alternate_ids": [
+      "BP10-056EN",
+      "BP10-SL14EN",
+      "BP10-056",
+      "BP10-SL14",
+      "PR-344"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "XXI. Zelgenea, The World",
+    "card_id": "BP10-109EN",
+    "lang": "en",
+    "card_class": "Neutral",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Arcana",
+      "Deity"
+    ],
+    "alternate_ids": [
+      "BP10-109EN",
+      "BP10-SL25EN",
+      "BP10-U07EN",
+      "SD08-006",
+      "BP10-109",
+      "BP10-SL25",
+      "BP10-U07"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Bellicosity Dragon",
+    "card_id": "CP03-071EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Vanguard",
+      "Kagero"
+    ],
+    "alternate_ids": [
+      "CP03-071EN",
+      "CP03-P48EN",
+      "CP03-071",
+      "CP03-P48"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Conflagration",
+    "card_id": "BP01-089EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "BP01-089EN",
+      "PR-004EN",
+      "SS02-002EN",
+      "GFD02-047EN",
+      "BP01-089",
+      "PR-057"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Lightning Blast",
+    "card_id": "BP04-066EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Spell"
+    ],
+    "card_trait": [
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "BP04-066",
+      "BP04-066EN",
+      "BP04-067",
+      "BP04-067EN",
+      "BP04-P18",
+      "BP04-P18EN",
+      "GFD02-031EN"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "XI. Erntz, Justice",
+    "card_id": "BP10-054EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Arcana",
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "BP10-054EN",
+      "BP10-SL12EN",
+      "BP10-U04EN",
+      "SD08-003",
+      "BP10-054",
+      "BP10-SL12",
+      "BP10-U04"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Bahamut",
+    "card_id": "BP02-104EN",
+    "lang": "en",
+    "card_class": "Neutral",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Deity",
+      "Supreme"
+    ],
+    "alternate_ids": [
+      "BP02-104EN",
+      "BP02-107",
+      "BP02-SL20",
+      "BP02-SL20EN",
+      "BSF2024-001EN",
+      "GFB01b-015EN",
+      "PR-049"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Lindworm",
+    "card_id": "BP09-068EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower"
+    ],
+    "card_trait": [
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "BP09-068EN",
+      "BP09-P23EN",
+      "BP09-055",
+      "BP09-P16"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "Roy, Dragoncleaver (Evolved)",
+    "card_id": "BP09-075EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Draconic Duelist",
+      "Cutthroat"
+    ],
+    "alternate_ids": [
+      "BP09-075EN",
+      "BP09-P28EN",
+      "GFD02-044EN",
+      "SD08-015",
+      "BP09-060",
+      "BP09-P19",
+      "DSD01b-015"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "XI. Erntz, Justice (Evolved)",
+    "card_id": "BP10-055EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Arcana",
+      "Wyrmkin"
+    ],
+    "alternate_ids": [
+      "BP10-055EN",
+      "BP10-SL13EN",
+      "SD08-004",
+      "BP10-055",
+      "BP10-SL13"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Bahamut (Evolved)",
+    "card_id": "BP02-105EN",
+    "lang": "en",
+    "card_class": "Neutral",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Deity",
+      "Supreme"
+    ],
+    "alternate_ids": [
+      "BP02-105EN",
+      "BP02-108",
+      "BP02-SL21",
+      "BP02-SL21EN",
+      "BP02-U07",
+      "BP02-U07EN",
+      "GFB01b-016EN"
+    ],
+    "quantity": 1
+  },
+  {
+    "card_name": "Virtuous Lindworm (Evolved)",
+    "card_id": "BP09-069EN",
+    "lang": "en",
+    "card_class": "Dragoncraft",
+    "card_type": [
+      "Follower",
+      "Evolved"
+    ],
+    "card_trait": [
+      "Wyrmkin",
+      "Lightborne"
+    ],
+    "alternate_ids": [
+      "BP09-056",
+      "BP09-069EN",
+      "BP09-P17",
+      "BP09-P24EN"
+    ],
+    "quantity": 3
+  },
+  {
+    "card_name": "XXI. Zelgenea, O Great World",
+    "card_id": "BP10-110EN",
+    "lang": "en",
+    "card_class": "Neutral",
+    "card_type": [
+      "Follower",
+      "Advanced"
+    ],
+    "card_trait": [
+      "Arcana",
+      "Deity"
+    ],
+    "alternate_ids": [
+      "BP10-110EN",
+      "BP10-SL25EN",
+      "PR-269EN",
+      "BP10-110",
+      "BP10-SL26",
+      "PR-252"
+    ],
+    "quantity": 2
+  },
+  {
+    "card_name": "Drive Point (Evolved)",
+    "card_id": "CP03-127EN",
+    "lang": "en",
+    "card_class": "Neutral",
+    "card_type": [
+      "Spell",
+      "Evolved"
+    ],
+    "card_trait": [
+      null
+    ],
+    "alternate_ids": [
+      "CP03-127",
+      "CP03-127EN",
+      "CSD03a-017",
+      "CSD03a-017EN",
+      "CSD03b-017",
+      "CSD03b-017EN",
+      "PR-259",
+      "PR-285"
+    ],
+    "quantity": 1
+  }
+]
