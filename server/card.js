@@ -42,6 +42,7 @@ export default class Card {
     };
   }
   setOtherLangCard(cardIdMap) {
+
     for (const altId of this.alternate_ids) {
       const altCard = cardIdMap.get(altId);
       if (altCard.lang !== this.lang) {
@@ -53,9 +54,8 @@ export default class Card {
   }
   getCardInfoFromId(cardIdMap) {
     const card = cardIdMap.get(this.card_id);
-
     if (!card) {
-      console.log(`${card.card_name} ID# ${this.card_id} not found`);
+      // console.log(`${card.card_name} ID# ${this.card_id} not found`);
       return;
     }
     replaceCardInfo(this, card);
@@ -63,10 +63,10 @@ export default class Card {
   }
   /**
    * Prints card specifically for the SVE sim
-   * @returns {String} compatible string for the SVE sim to read 
+   * @returns {String} compatible string for the SVE sim to read
    */
   printCard() {
-    //Strips (Evolved) from card name to be compatible with the SVE sim 
+    //Strips (Evolved) from card name to be compatible with the SVE sim
     const cleanName = this.card_name.replace(/\s*\(Evolved\)\s*$/i, "");
     return `${this.quantity} ${cleanName}`;
   }

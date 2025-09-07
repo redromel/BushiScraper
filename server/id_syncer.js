@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import Card from "./card";
+import Card from "./card.js";
 
 /**
  * Builds adjacency maps for a deck of cards, linking each card to its alternate IDs.
