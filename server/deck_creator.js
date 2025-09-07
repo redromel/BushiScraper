@@ -2,27 +2,51 @@ import { chromium } from "playwright";
 import { expect } from "playwright/test";
 import { validateDeck } from "./deck.js";
 
+async function withTimeout(promise, ms) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error("addCards timed out")), ms)
+    ),
+  ]);
+}
+
+
+/**
+ * Clicks the Decklog "Create" button and waits for completion, returning the deck URL.
+ *
+ * Behavior:
+ * - On the first attempt, waits for the blue "Create" button and clicks it.
+ * - On subsequent attempts, prefers the red "Create" button if visible; otherwise clicks blue again.
+ * - Races the "success" UI (".views-complete") against a known failure message ("Failed to create deck").
+ *
+ * @async
+ * @param {import('playwright').Page} page - The Playwright page instance.
+ * @param {number} [maxAttempts=3] - Maximum number of create/confirm attempts.
+ * @returns {Promise<string | undefined>} The created deck URL if successful; otherwise `undefined`.
+ * @throws {Error} If the success UI appears but the confirmation link lacks an `href`.
+ */
 async function confirmDeck(page, maxAttempts = 3) {
   let deckUrl = null;
 
-  const blueCreate = page.locator("button.btn-info.btn-secondary", {
+  const blueButton = page.locator("button.btn-info.btn-secondary", {
     hasText: "Create",
   });
-  const redCreate = page.locator("button.btn-warning.btn-secondary", {
+  const redButton = page.locator("button.btn-warning.btn-secondary", {
     hasText: "Create",
   });
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     if (attempt === 1) {
-      await blueCreate.waitFor({ state: "visible", timeout: 60000 });
-      await blueCreate.click();
+      await blueButton.waitFor({ state: "visible", timeout: 60000 });
+      await blueButton.click();
     } else {
-      if (await redCreate.isVisible()) {
+      if (await redButton.isVisible()) {
         console.log("Clicking red Create button…");
-        await redCreate.click();
+        await redButton.click();
       } else {
         console.log("Red not visible, clicking blue Create…");
-        await blueCreate.click();
+        await blueButton.click();
       }
     }
 
@@ -48,7 +72,6 @@ async function confirmDeck(page, maxAttempts = 3) {
       }
       deckUrl = new URL(href, page.url()).toString();
 
-      // Optionally follow the link (comment out if you only need the URL)
       await confirmLink.click();
 
       return deckUrl;
@@ -58,6 +81,35 @@ async function confirmDeck(page, maxAttempts = 3) {
   return;
 }
 
+
+/**
+ * Selects and adds a specific card to the current deck on Decklog.
+ *
+ * Flow:
+ *  1) Clears the keyword box and searches by `card.card_id`.
+ *  2) If no results:
+ *     - If the card is a Leader, picks the first visible Leader tile by default.
+ *     - Otherwise, iterates `card.alternate_ids` until a match is found; mutates `card.card_id` to the working ID.
+ *  3) Calls `addCards` to click the "+" button `quantity` times.
+ *  4) Retries on failure using a bounded recursive strategy.
+ *
+ * Side effects:
+ *  - May mutate `card.card_id` when an alternate ID is used.
+ *
+ * @async
+ * @param {import('playwright').Page} page - Playwright page instance.
+ * @param {{
+ *   card_id: string,
+ *   card_name?: string,
+ *   card_type?: string[] | string,
+ *   alternate_ids?: string[],
+ *   quantity: number
+ * }} card - Card descriptor with ID, optional metadata, and desired quantity.
+ * @param {number} [retryAttempts=3] - Max number of retries if `addCards` fails.
+ * @param {number} [attemptNumber=0] - Internal attempt counter (do not set manually).
+ * @returns {Promise<void>} Resolves when the card has been added (or when the function gives up after retries).
+ * @throws {Error} If no results are found for the original ID and all alternates.
+ */
 async function selectCard(page, card, retryAttempts = 3, attemptNumber = 0) {
   const clearButton = page
     .locator('input[name="keyword"] ~ .clear_keyword_btn')
@@ -128,6 +180,15 @@ async function selectCard(page, card, retryAttempts = 3, attemptNumber = 0) {
   }
 }
 
+
+/**
+ * Adds a card (by ID) to the current deck on the Decklog site.
+ *
+ * @async
+ * @param {import('playwright').Page} page - The Playwright page instance.
+ * @param {{ card_id: string, card_name?: string, quantity: number }} card - The card to add, with ID and quantity.
+ * @returns {Promise<void>} Resolves when the card has been added.
+ */
 async function addCards(page, card) {
   const matchTile = page
     .locator("#search-results > .card-item")
@@ -155,14 +216,23 @@ async function addCards(page, card) {
   }
 }
 
-async function withTimeout(promise, ms) {
-  return Promise.race([
-    promise,
-    new Promise((_, reject) =>
-      setTimeout(() => reject(new Error("addCards timed out")), ms)
-    ),
-  ]);
-}
+/**
+ * Waits for a Bushiroad Decklog search results cycle to complete.
+ *
+ * Behavior:
+ * - Captures the initial card tile count.
+ * - If there were tiles before typing, waits for them to clear to `0`.
+ * - If already empty, briefly waits to allow debounce.
+ * - Then waits for either new tiles to appear or a `zero_result` state.
+ * - Returns whether the results are empty and how many tiles were found.
+ *
+ * @async
+ * @param {import('playwright').Page} page - The Playwright page instance.
+ * @param {{ clearTimeout?: number, readyTimeout?: number }} [options={}] - Optional timeouts in ms.
+ * @param {number} [options.clearTimeout=750] - How long to wait for old tiles to clear.
+ * @param {number} [options.readyTimeout=750] - How long to wait for new results or zero state.
+ * @returns {Promise<{ zero: boolean, count: number }>} Resolves with `zero` (true if no results) and `count` (number of result tiles).
+ */
 async function waitResultsCycle(
   page,
   { clearTimeout = 750, readyTimeout = 750 } = {}
@@ -194,13 +264,25 @@ async function waitResultsCycle(
   const count = await tiles.count().catch(() => 0);
   return { zero, count };
 }
-
+/**
+ * Validates and creates an EN Bushiroad Decklog entry from a list of cards. Returning the link of the link of the new Decklog if successful
+ *
+ *
+ * @async
+ * @param {Card[]} cardList - The cards to add (must include `card_id`, `card_name`, `card_type`, `quantity`).
+ * @param {string|null} [deckName=null] - Optional deck name; if omitted, a timestamped name is generated.
+ * @returns {Promise<string>} Resolves to the Decklog URL of the created deck.
+ * @throws {Error} If deck is invalid, class selection fails, or deck creation cannot be confirmed.
+ *
+ */
 export async function createDecklist(cardList, deckName = null) {
   const cardClass = validateDeck(cardList);
 
   if (!deckName) {
     const date = new Date();
-    deckName = `Bushiscraper ${cardClass} Deck ${date.getMonth()}-${date.getDate()}-${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+    deckName = `Bushiscraper ${cardClass} Deck ${date.getMonth()}-${
+      date.getDate() + 1
+    }-${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
   }
 
   console.log("Validating Deck");
@@ -277,7 +359,7 @@ export async function createDecklist(cardList, deckName = null) {
     await selectCard(page, card);
   }
 
-  console.log(`Generating Link...`)
+  console.log(`Generating Link...`);
   //Deck confirmation
   await page.getByRole("button", { name: "Confirm Deck" }).click();
   await page.getByRole("textbox", { name: "Enter deck name" }).click();
@@ -287,10 +369,11 @@ export async function createDecklist(cardList, deckName = null) {
 
   // If all retries failed
   if (!deckUrl) {
+    browser.close();
     throw new Error("Could not create deck.");
   } else {
     console.log("Deck created at:", deckUrl);
+    browser.close();
+    return deckUrl;
   }
-
-  browser.close();
 }
