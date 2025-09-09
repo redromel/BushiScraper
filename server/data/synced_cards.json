@@ -43522,12 +43522,7 @@
       "BP06-025",
       "BP06-025EN",
       "BP06-P08",
-      "BP06-P08EN",
-      "GFB01a-036EN",
-      "PR-002EN",
-      "PR-089",
-      "SD02-003",
-      "SD02-003EN"
+      "BP06-P08EN"
     ],
     "evolves_into": ["BP06-026EN", "BP06-P09EN"],
     "evolves_from": [],
@@ -45871,12 +45866,7 @@
       "BP06-025",
       "BP06-025EN",
       "BP06-P08",
-      "BP06-P08EN",
-      "GFB01a-036EN",
-      "PR-002EN",
-      "PR-089",
-      "SD02-003",
-      "SD02-003EN"
+      "BP06-P08EN"
     ],
     "evolves_into": ["BP06-026EN", "BP06-P09EN"],
     "evolves_from": [],
@@ -53773,10 +53763,6 @@
     "card_def": "3",
     "card_text": "{[evolve]} {[cost01]}: Evolve this follower.",
     "alternate_ids": [
-      "BP06-025",
-      "BP06-025EN",
-      "BP06-P08",
-      "BP06-P08EN",
       "GFB01a-036EN",
       "PR-002EN",
       "PR-089",
@@ -95247,10 +95233,6 @@
     "card_def": "3",
     "card_text": "{[evolve]}{[cost01]}: Evolve this follower.",
     "alternate_ids": [
-      "BP06-025",
-      "BP06-025EN",
-      "BP06-P08",
-      "BP06-P08EN",
       "GFB01a-036EN",
       "PR-002EN",
       "PR-089",
@@ -96466,10 +96448,6 @@
     "card_def": "3",
     "card_text": "{[evolve]}{[cost01]}: Evolve this follower.",
     "alternate_ids": [
-      "BP06-025",
-      "BP06-025EN",
-      "BP06-P08",
-      "BP06-P08EN",
       "GFB01a-036EN",
       "PR-002EN",
       "PR-089",
@@ -179367,12 +179345,7 @@
       "BP06-025",
       "BP06-025EN",
       "BP06-P08",
-      "BP06-P08EN",
-      "GFB01a-036EN",
-      "PR-002EN",
-      "PR-089",
-      "SD02-003",
-      "SD02-003EN"
+      "BP06-P08EN"
     ],
     "evolves_into": [],
     "evolves_from": [],
@@ -181842,12 +181815,7 @@
       "BP06-025",
       "BP06-025EN",
       "BP06-P08",
-      "BP06-P08EN",
-      "GFB01a-036EN",
-      "PR-002EN",
-      "PR-089",
-      "SD02-003",
-      "SD02-003EN"
+      "BP06-P08EN"
     ],
     "evolves_into": [],
     "evolves_from": [],
@@ -223199,10 +223167,6 @@
     "card_def": "3",
     "card_text": "{[evolve]} {[cost01]}: Evolve this follower.",
     "alternate_ids": [
-      "BP06-025",
-      "BP06-025EN",
-      "BP06-P08",
-      "BP06-P08EN",
       "GFB01a-036EN",
       "PR-002EN",
       "PR-089",
@@ -226688,10 +226652,6 @@
     "card_def": "3",
     "card_text": "{[evolve]} {[cost01]}: Evolve this follower.",
     "alternate_ids": [
-      "BP06-025",
-      "BP06-025EN",
-      "BP06-P08",
-      "BP06-P08EN",
       "GFB01a-036EN",
       "PR-002EN",
       "PR-089",

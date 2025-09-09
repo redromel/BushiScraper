@@ -1,11 +1,24 @@
 import { getOtherLangDeck } from "./deck.js";
 import { createDecklist } from "./deck_creator.js";
 import { scrapeBushi } from "./scraper.js";
-import fs from "fs/promises"
-const rawDeck = await scrapeBushi("https://decklog.bushiroad.com/view/1UD7X");
 
+
+const args = process.argv.slice(2);
+
+let url = null;
+args.forEach((arg, idx) => {
+  if (arg === "--url" && args[idx + 1]) {
+    url = args[idx + 1];
+  }
+});
+
+if (!url) {
+  console.error("Missing required --url argument");
+  process.exit(1);
+}
+
+
+console.log(`Generating EN Bushiroad link for ${url}`);
+const rawDeck = await scrapeBushi(`${url}`);
 const enDeck = await getOtherLangDeck(rawDeck);
-
-console.log(enDeck);
-// await fs.writeFile("data/testing.json", JSON.stringify(enDeck,null,2),"utf-8");
 await createDecklist(enDeck);

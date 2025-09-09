@@ -1,6 +1,7 @@
 const replaceCardInfo = (oldCard, newCard) => {
   oldCard.card_name = newCard.card_name;
   oldCard.card_id = newCard.card_id;
+  oldCard.card_set = newCard.card_set;
   oldCard.lang = newCard.lang;
   oldCard.card_class = newCard.card_class;
   oldCard.card_type = newCard.card_type;
@@ -12,6 +13,7 @@ export default class Card {
   constructor({
     card_name,
     card_id,
+    card_set,
     lang = "",
     card_class = "",
     card_type = [],
@@ -21,6 +23,7 @@ export default class Card {
   }) {
     this.card_name = card_name;
     this.card_id = card_id;
+    this.card_set = card_set;
     this.lang = lang;
     this.card_class = card_class;
     this.card_type = card_type;
@@ -33,6 +36,7 @@ export default class Card {
     return {
       card_name: this.card_name,
       card_id: this.card_id,
+      card_set: this.card_set,
       lang: this.lang,
       card_class: this.card_class,
       card_type: this.card_type,

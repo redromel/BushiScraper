@@ -93,7 +93,6 @@ export function validateDeck(deck) {
       (trait) => trait === "Leader" || trait === "リーダー"
     );
   });
-  console.log(filteredDeck);
   const uniqueLangs = [...new Set(filteredDeck.map((card) => card.lang))];
 
   if (!(uniqueLangs.length === 1 && uniqueLangs[0] === "en")) {
@@ -120,7 +119,7 @@ export function validateDeck(deck) {
  * @param {string} [filePath="data/synced_cards.json"] - Path to the JSON file containing synced cards.
  * @returns {Promise<Map<string, Card>>} A promise resolving to a map of card IDs to card objects.
  */
-export async function getIdMap(filePath = "data/synced_cards.json") {
+export async function getIdMap(filePath = "./server/data/synced_cards.json") {
   const raw = await fs.readFile(filePath, "utf8");
   const cardList = JSON.parse(raw);
   return new Map(cardList.map((c) => [c.card_id, c]));

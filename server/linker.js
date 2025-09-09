@@ -62,6 +62,7 @@ const compareNamesNoEvolved = (cardEn, cardJp) => {
     `cost=${norm(card.card_cost)}`,
     `format=${norm(card.card_format)}`,
     `type=${normalizeArray(card.card_type)}`,
+    `set=${norm(card.card_set)}`
   ].join("|");
 }
 
