@@ -70,12 +70,6 @@ function splitTitle(titleRaw = "") {
   return { code, name };
 }
 
-// const rawDeck = await scrapeBushi("https://decklog.bushiroad.com/view/3EXPH");
-
-
-// const enDeck = getOtherLangDeck(rawDeck)
-
-// await fs.writeFile("data/testDeck.json", JSON.stringify(enDeck,null,2),"utf-8");
 
 
 
