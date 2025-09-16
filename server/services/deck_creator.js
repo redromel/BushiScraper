@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 import { expect } from "playwright/test";
-import { validateDeck } from "./deck.js";
+import { validateDeck } from "../cards/deck.js";
 
 async function withTimeout(promise, ms) {
   return Promise.race([

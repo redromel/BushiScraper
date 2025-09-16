@@ -1,6 +1,6 @@
 import { getOtherLangDeck } from "./deck.js";
-import { createDecklist } from "./deck_creator.js";
-import { scrapeBushi } from "./scraper.js";
+import { createDecklist } from "../services/deck_creator.js";
+import { scrapeBushi } from "../services/scraper.js";
 
 
 const args = process.argv.slice(2);
