@@ -13,6 +13,7 @@
   },
   "scripts": {
     "getDeck": "node ./server/lib/app.js",
-    "devStart": "nodemon ./server/api/server.js"
+    "devStart": "nodemon ./server/api/server.js",
+    "start":  "node server/api/server.js"
   }
 }

@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+.DS_Store
+.git
+.vscode
+tests
+tests-examples
+playwright.config.js
+.env

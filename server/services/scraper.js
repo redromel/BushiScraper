@@ -1,75 +1,50 @@
-import { chromium } from "playwright";
-import Card from "./card.js";
-import { getOtherLangDeck, validateDeck } from "./deck.js";
-import fs from "fs/promises"
+import Card from "../cards/card.js";
 
+export async function getBushiDeck(url) {
+  const { id, base } = parseViewUrl(url);
+  const apiUrl = `${base}/system/app/api/view/${id}`;
 
-/**
- * Scrapes a Bushiroad decklist page for card data.
- *
- * - Launches a headless Chromium browser (via Playwright/Puppeteer API).
- * - Blocks unnecessary resource types (images, fonts, stylesheets, media) for speed.
- * - Navigates to the given URL and waits for deck card containers to load.
- * - Extracts each card’s `title` (containing code + name) and quantity.
- * - Converts raw data into `Card` objects using `splitTitle` to separate code and name.
- *
- * @async
- * @param {string} url - The Bushiroad decklist URL to scrape.
- * @returns {Promise<Card[]>} A promise resolving to an array of `Card` objects with `card_name`, `card_id`, and `quantity`.
- */
-export async function scrapeBushi(url) {
-  const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
-
-  await page.route("**/*", (route) => {
-    const t = route.request().resourceType();
-    if (t === "image" || t === "font" || t === "stylesheet" || t === "media")
-      return route.abort();
-    route.continue();
+  const resp = await fetch(apiUrl, {
+    method: "POST",
+    headers: {
+      Origin: base,
+      Referer: `${base}/view/${id}`,
+      "User-Agent": "BushiScraper/1.0 (+github.com/redromel/BushiScraper)",
+    },
   });
 
-  await page.goto(url, { waitUntil: "domcontentloaded", timeout: 15000 });
-  await page.waitForSelector("div.card-container.card-view", {
-    timeout: 15000,
-  });
+  if (!resp.ok) {
+    throw new Error(`Upstream error: ${resp.status}`);
+  }
 
-  const cards = await page.$$eval("div.card-container.card-view", (nodes) =>
-    nodes.map((el) => {
-      const card = el.querySelector("img.card-view-item");
-      const title = card?.getAttribute("title") || "";
-      const quantity =
-        Number(el.querySelector("span.num")?.textContent.trim()) || 1;
+  const data = await resp.json();
 
-      return { title, quantity };
-    })
-  );
+  if (Array.isArray(data) && data.length === 0) {
+    throw new Error("Invalid deck ID (deck does not exist)");
+  }
 
-  await browser.close();
+  const cards = [];
+  const cardList = [...data.list, ...data.sub_list, ...data.p_list];
+  for (const c of cardList) {
+    cards.push(
+      new Card({
+        card_name: c.name || "",
+        card_id: c.card_number || "",
+        quantity: c.num || 1,
+      })
+    );
+  }
 
-  const deck = cards.map(({ title, quantity }) => {
-    const { code, name } = splitTitle(title);
-
-    return new Card({
-      card_name: name,
-      card_id: code,
-      quantity: quantity,
-    });
-  });
-
-  return deck;
+  return cards;
 }
 
-function splitTitle(titleRaw = "") {
-  // Split on normal ":" or Japanese "："
-  const parts = (titleRaw || "").split(/:|：/);
-
-  const code = parts[0] ? parts[0].trim() : "";
-  // join back everything after the first colon
-  const name = parts.length > 1 ? parts.slice(1).join(":").trim() : "";
-
-  return { code, name };
+function parseViewUrl(viewUrl) {
+  const u = new URL(viewUrl);
+  const host = u.hostname;
+  if (!["decklog-en.bushiroad.com", "decklog.bushiroad.com"].includes(host)) {
+    throw new Error("Not a decklog URL");
+  }
+  const m = /^\/view\/([A-Za-z0-9_-]{4,32})$/.exec(u.pathname);
+  if (!m) throw new Error("Decklog URL must be /view/<deckId>");
+  return { id: m[1], base: `https://${host}` };
 }
-
-
-
-

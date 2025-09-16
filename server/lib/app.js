@@ -1,6 +1,6 @@
 import { getOtherLangDeck } from "./deck.js";
 import { createDecklist } from "../services/deck_creator.js";
-import { scrapeBushi } from "../services/scraper.js";
+import { getBushiDeck } from "../services/scraper.js";
 
 
 const args = process.argv.slice(2);
@@ -19,6 +19,6 @@ if (!url) {
 
 
 console.log(`Generating EN Bushiroad link for ${url}`);
-const rawDeck = await scrapeBushi(`${url}`);
+const rawDeck = await getBushiDeck(`${url}`);
 const enDeck = await getOtherLangDeck(rawDeck);
 await createDecklist(enDeck);
