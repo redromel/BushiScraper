@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import Card from "./card.js";
+import Card from "../cards/card.js";
 
 /**
  * Builds adjacency maps for a deck of cards, linking each card to its alternate IDs.
@@ -96,6 +96,7 @@ const equalArray = (a, b) => {
  * @returns {Card[]} The updated list of card objects with synchronized `alternate_ids`.
  */
 export function syncAltIds(cardList) {
+
   const idMap = new Map(cardList.map((c) => [c.card_id, c]));
   const { fwd, rev } = buildAdjacency(cardList, idMap);
 
@@ -128,3 +129,4 @@ export function syncAltIds(cardList) {
   }
   return cardList;
 }
+

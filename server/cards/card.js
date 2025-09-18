@@ -54,6 +54,7 @@ export default class Card {
         //Grabs the exact same Card for the other lang (Useful for things like promo cards and special edition cards)
         if (removeEN(altCard.card_id) === removeEN(this.card_id)) {
           replaceCardInfo(this, altCard);
+
           return;
         }
       }
@@ -61,8 +62,11 @@ export default class Card {
 
     if (backupCard !== null) {
       replaceCardInfo(this, backupCard); //If the exact same card doesn't exist
+
       return;
     }
+    
+    
     return null;
   }
   getCardInfoFromId(cardIdMap) {

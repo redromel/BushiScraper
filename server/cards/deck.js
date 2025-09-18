@@ -93,6 +93,7 @@ export function validateDeck(deck) {
       (trait) => trait === "Leader" || trait === "リーダー"
     );
   });
+  
   const uniqueLangs = [...new Set(filteredDeck.map((card) => card.lang))];
 
   if (!(uniqueLangs.length === 1 && uniqueLangs[0] === "en")) {
