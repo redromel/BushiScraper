@@ -1,5 +1,5 @@
-import { getOtherLangDeck } from "./deck.js";
-import { createDecklist } from "../services/deck_creator.js";
+import { getOtherLangDeck } from "../cards/deck.js";
+import { createDecklist, buildEnDeck } from "../services/deck_creator.js";
 import { getBushiDeck } from "../services/scraper.js";
 
 
@@ -21,4 +21,5 @@ if (!url) {
 console.log(`Generating EN Bushiroad link for ${url}`);
 const rawDeck = await getBushiDeck(`${url}`);
 const enDeck = await getOtherLangDeck(rawDeck);
-await createDecklist(enDeck);
+const data = await buildEnDeck(enDeck);
+console.log(data)
