@@ -47,14 +47,15 @@ export default class Card {
   }
   setOtherLangCard(cardIdMap) {
     let backupCard = null;
+
     for (const altId of this.alternate_ids) {
       const altCard = cardIdMap.get(altId);
       if (altCard.lang !== this.lang) {
         backupCard = altCard;
+
         //Grabs the exact same Card for the other lang (Useful for things like promo cards and special edition cards)
         if (removeEN(altCard.card_id) === removeEN(this.card_id)) {
           replaceCardInfo(this, altCard);
-
           return;
         }
       }
@@ -65,8 +66,7 @@ export default class Card {
 
       return;
     }
-    
-    
+
     return null;
   }
   getCardInfoFromId(cardIdMap) {
@@ -84,7 +84,7 @@ export default class Card {
    */
   printCard() {
     //Strips (Evolved) from card name to be compatible with the SVE sim
-    const cleanName = this.card_name.replace(/\s*\(Evolved\)\s*$/i, "");
+    const cleanName = this.card_name.replace(/\(Evolved\)/i, "Evolved").trim();
     return `${this.quantity} ${cleanName}`;
   }
 }

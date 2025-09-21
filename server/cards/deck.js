@@ -57,13 +57,18 @@ export function writeDeckToFile(deck, filePath = "./decklist.txt") {
  * @param {boolean} [getCardInfoFlag=true] - Whether to fetch full card info from the ID map.
  * @returns {Card[]} The updated array of cards with other-language data applied.
  */
-export async function getOtherLangDeck(deck, getCardInfoFlag = true) {
+export async function getOtherLangDeck(deck) {
   const idMap = await getIdMap();
   for (const card of deck) {
-    if (getCardInfoFlag === true) {
-      card.getCardInfoFromId(idMap);
-    }
     card.setOtherLangCard(idMap);
+  }
+  return deck;
+}
+
+export async function getDeckInfoFromId(deck) {
+  const idMap = await getIdMap();
+  for (const card of deck) {
+    card.getCardInfoFromId(idMap);
   }
   return deck;
 }
@@ -93,7 +98,7 @@ export function validateDeck(deck) {
       (trait) => trait === "Leader" || trait === "リーダー"
     );
   });
-  
+
   const uniqueLangs = [...new Set(filteredDeck.map((card) => card.lang))];
 
   if (!(uniqueLangs.length === 1 && uniqueLangs[0] === "en")) {
@@ -141,4 +146,105 @@ export function findUniverseTrait(deck) {
   }
 
   return null;
+}
+
+export async function compareDecks(oldDeck, newDeck) {
+  const normOldDeck = combineAltIds(oldDeck.filter((c) => !isLeader(c)));
+  const normNewDeck = combineAltIds(newDeck.filter((c) => !isLeader(c)));
+
+  const oldDeckMap = new Map(normOldDeck.map((c) => [c.card_id, c]));
+  const newDeckMap = new Map(normNewDeck.map((c) => [c.card_id, c]));
+
+  const sameCard = [];
+  const takeOut = [];
+  const slotIn = [];
+  for (const newCard of normNewDeck) {
+    let hasCard = false;
+
+    for (const altId of newCard.alternate_ids) {
+      if (oldDeckMap.has(altId)) {
+        hasCard = true;
+        const oldCard = oldDeckMap.get(altId);
+        sameCard.push(oldCard);
+        const cardDiff = newCard.quantity - oldCard.quantity;
+        if (cardDiff > 0) {
+          newCard.quantity = Math.abs(cardDiff);
+          slotIn.push(newCard);
+          break;
+        }
+        if (cardDiff < 0) {
+          oldCard.quantity = Math.abs(cardDiff);
+          takeOut.push(oldCard);
+          break;
+        }
+      }
+    }
+    //If the new card could not be found in the old deck, its a slot in
+    if (!hasCard) {
+      slotIn.push(newCard);
+    }
+  }
+
+  for (const oldCard of normOldDeck) {
+    let hasCard = false;
+    for (const altId of oldCard.alternate_ids) {
+      if (newDeckMap.has(altId)) {
+        hasCard = true;
+        break;
+      }
+    }
+    //If old card could not be found in new deck, then it has been removed
+    if (!hasCard) {
+      takeOut.push(oldCard);
+    }
+  }
+
+  return {
+    // cards present in both
+    sameCard: sameCard.sort(evolvedLast), 
+    // in old deck, missing/lower Quantity in new deck 
+    removedCards: takeOut.sort(evolvedLast), 
+    // in old deck, added/higher quantity in new deck
+    addedCards: slotIn.sort(evolvedLast), 
+  }
+}
+
+const combineAltIds = (deck) => {
+  const deckMap = new Map(deck.map((c) => [c.card_id, c]));
+  const deckIds = new Set(deck.map((card) => card.card_id));
+  const toRemove = new Set();
+  for (const card of deck) {
+    if (toRemove.has(card.card_id)) continue;
+    const alts = (card.alternate_ids || []).filter((id) => id !== card.card_id);
+
+    for (const altId of alts) {
+      if (deckIds.has(altId)) {
+        const altCard = deckMap.get(altId);
+        card.quantity += altCard.quantity;
+        toRemove.add(altId);
+      }
+    }
+  }
+
+  return deck.filter((c) => !toRemove.has(c.card_id));
+};
+
+const isLeader = (c) =>
+  (c.card_type ?? []).some((t) => t === "リーダー" || /^leader$/i.test(t));
+
+const isEvolved = (obj) =>
+  Array.isArray(obj.card_type) &&
+  obj.card_type.some((t) => /^evolved$/i.test(t));
+
+function evolvedLast(cardA, cardB) {
+  const aIsEvolved = isEvolved(cardA);
+  const bIsEvolved = isEvolved(cardB);
+
+  if (aIsEvolved && !bIsEvolved) return 1; // put evolved after non-evolved
+  if (!aIsEvolved && bIsEvolved) return -1; // put non-evolved before evolved
+
+  // both same type → sort alphabetically by name (fallback: card_id)
+  const nameA = cardA.card_name ?? cardA.card_id;
+  const nameB = cardB.card_name ?? cardB.card_id;
+  return nameA.localeCompare(nameB);
 }
