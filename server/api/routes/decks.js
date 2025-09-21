@@ -21,12 +21,17 @@ router.post(
   validateLink,
   verifyDeckExists,
   async (req, res) => {
-    const { url, deck_name } = req.body;
+    let { url, deck_name } = req.body;
 
     console.log(`Generating EN Bushiroad link for ${url}`);
-    const { deck: rawDeck } = await getBushiDeck(`${url}`);
+    const { deck: rawDeck, title } = await getBushiDeck(`${url}`);
     const deck = await getDeckInfoFromId(rawDeck);
     const enDeck = await getOtherLangDeck(deck);
+
+    if (deck_name === undefined || deck_name === null) {
+      deck_name = title + " EN";
+    }
+
     const deckUrl = await buildEnDeck(enDeck, deck_name);
     if (deckUrl === undefined || deckUrl === null) {
       res.status(422).send({
@@ -71,8 +76,10 @@ router.post("/compare", validateLinkPair, verifyBothExist, async (req, res) => {
   const deckB = await getDeckInfoFromId(rawDeckB);
 
   try {
-    const { sameCard, removedCards, addedCards } =
-      await compareDecks(deckA, deckB);
+    const { sameCard, removedCards, addedCards } = await compareDecks(
+      deckA,
+      deckB
+    );
 
     return res.status(200).json({
       message: "Deck successfully compared",

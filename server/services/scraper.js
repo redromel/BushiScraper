@@ -22,6 +22,7 @@ export async function getBushiDeck(url) {
     throw new Error("Invalid deck ID (deck does not exist)");
   }
   const cards = [];
+  const title = data.title;
   const cardList = [...data.list, ...data.sub_list, ...data.p_list];
   for (const c of cardList) {
     cards.push(
@@ -33,7 +34,7 @@ export async function getBushiDeck(url) {
     );
   }
 
-  return { deck: cards};
+  return { deck: cards, title};
 }
 
 function parseViewUrl(viewUrl) {
