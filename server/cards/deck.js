@@ -162,21 +162,18 @@ export async function compareDecks(oldDeck, newDeck) {
     let hasCard = false;
 
     for (const altId of newCard.alternate_ids) {
-      if (oldDeckMap.has(altId)) {
+      if (oldDeckMap.has(altId) || oldDeckMap.has(newCard.card_id)) {
         hasCard = true;
         const oldCard = oldDeckMap.get(altId);
         sameCard.push(oldCard);
         const cardDiff = newCard.quantity - oldCard.quantity;
         if (cardDiff > 0) {
-          newCard.quantity = Math.abs(cardDiff);
-          slotIn.push(newCard);
-          break;
+          slotIn.push({ ...newCard, quantity: Math.abs(cardDiff) });
         }
         if (cardDiff < 0) {
-          oldCard.quantity = Math.abs(cardDiff);
-          takeOut.push(oldCard);
-          break;
+          takeOut.push({ ...oldCard, quantity: Math.abs(cardDiff) });
         }
+        break;
       }
     }
     //If the new card could not be found in the old deck, its a slot in
@@ -201,12 +198,12 @@ export async function compareDecks(oldDeck, newDeck) {
 
   return {
     // cards present in both
-    sameCard: sameCard.sort(evolvedLast), 
-    // in old deck, missing/lower Quantity in new deck 
-    removedCards: takeOut.sort(evolvedLast), 
+    sameCard: sameCard.sort(evolvedLast),
+    // in old deck, missing/lower Quantity in new deck
+    removedCards: takeOut.sort(evolvedLast),
     // in old deck, added/higher quantity in new deck
-    addedCards: slotIn.sort(evolvedLast), 
-  }
+    addedCards: slotIn.sort(evolvedLast),
+  };
 }
 
 const combineAltIds = (deck) => {
