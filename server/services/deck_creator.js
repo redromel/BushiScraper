@@ -1,5 +1,5 @@
+import { error } from "console";
 import { validateDeck } from "../cards/deck.js";
-
 
 export async function buildEnDeck(cardList, deckName = null) {
   const cardClass = validateDeck(cardList);
@@ -30,7 +30,6 @@ export async function buildEnDeck(cardList, deckName = null) {
     (c) => c.card_type?.includes("Leader") || c.card_type?.includes("リーダー")
   );
 
-
   const payload = {
     id: "",
     deck_id: "",
@@ -53,27 +52,31 @@ export async function buildEnDeck(cardList, deckName = null) {
     token: "",
   };
 
-  const res = await fetch(
+  const data = await fetch(
     "https://decklog-en.bushiroad.com/system/app/api/publish/6",
     {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
-        "Accept": "application/json, text/plain, */*",
-        "Origin": "https://decklog-en.bushiroad.com",
-        "Referer": "https://decklog-en.bushiroad.com/create?c=6",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" 
+        Accept: "application/json, text/plain, */*",
+        Origin: "https://decklog-en.bushiroad.com",
+        Referer: "https://decklog-en.bushiroad.com/create?c=6",
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       },
-      body: JSON.stringify(payload)
+      body: JSON.stringify(payload),
     }
-  );
+  )
+    .then((resp) => {
+      if (!resp.ok) {
+        throw new Error(`Publish failed ${resp.status}: ${resp.text()}`);
+      }
+      return resp.json();
+    })
+    .catch((e) => {
+      console.error("There was a problem with the fetch operation", e);
+    });
 
-  if (!res.ok) {
-    throw new Error(`Publish failed ${res.status}: ${await res.text()}`);
-  }
-  const data = await res.json();
-
-  const url = `https://decklog-en.bushiroad.com/view/${data.deck_id}`
-  return url
-
+  const url = `https://decklog-en.bushiroad.com/view/${data.deck_id}`;
+  return url;
 }

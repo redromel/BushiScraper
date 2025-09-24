@@ -3,20 +3,24 @@ import Card from "../cards/card.js";
 export async function getBushiDeck(url) {
   const { id, base, apiLang } = parseViewUrl(url);
   const apiUrl = `${base}/system/${apiLang}/api/view/${id}`;
-  const resp = await fetch(apiUrl, {
+  const data = await fetch(apiUrl, {
     method: "POST",
     headers: {
       Origin: base,
       Referer: `${base}/view/${id}`,
-      "User-Agent": "BushiScraper/1.0 (+github.com/redromel/BushiScraper)",
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     },
-  });
-
-  if (!resp.ok) {
-    throw new Error(`Upstream error: ${resp.status}`);
-  }
-
-  const data = await resp.json();
+  })
+    .then((resp) => {
+      if (!resp.ok) {
+        throw new Error(`Upstream error: ${resp.status}`);
+      }
+      return resp.json();
+    })
+    .error((e) => {
+      console.error("There was a problem with the fetch operation", e);
+    });
 
   if (Array.isArray(data) && data.length === 0) {
     throw new Error("Invalid deck ID (deck does not exist)");
@@ -34,7 +38,7 @@ export async function getBushiDeck(url) {
     );
   }
 
-  return { deck: cards, title};
+  return { deck: cards, title };
 }
 
 function parseViewUrl(viewUrl) {

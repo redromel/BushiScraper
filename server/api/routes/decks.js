@@ -10,6 +10,7 @@ import { getBushiDeck } from "../../services/scraper.js";
 import {
   compareDecks,
   getDeckInfoFromId,
+  getIdMap,
   getOtherLangDeck,
   printDeck,
 } from "../../cards/deck.js";
@@ -25,8 +26,10 @@ router.post(
 
     console.log(`Generating EN Bushiroad link for ${url}`);
     const { deck: rawDeck, title } = await getBushiDeck(`${url}`);
-    const deck = await getDeckInfoFromId(rawDeck);
-    const enDeck = await getOtherLangDeck(deck);
+
+    const idMap = await getIdMap();
+    const deck = await getDeckInfoFromId(rawDeck, idMap);
+    const enDeck = await getOtherLangDeck(deck, idMap);
 
     if (deck_name === undefined || deck_name === null) {
       deck_name = title + " EN";
@@ -54,9 +57,10 @@ router.post(
     const { lang } = req.decklog;
 
     const { deck: rawDeck } = await getBushiDeck(`${url}`);
-    let deck = await getDeckInfoFromId(rawDeck);
+    const idMap = await getIdMap();
+    let deck = await getDeckInfoFromId(rawDeck, idMap);
     if (lang === "jp") {
-      deck = await getOtherLangDeck(rawDeck);
+      deck = await getOtherLangDeck(rawDeck, idMap);
     }
 
     const printedDeck = printDeck(deck);
@@ -70,10 +74,11 @@ router.post(
 
 router.post("/compare", validateLinkPair, verifyBothExist, async (req, res) => {
   const { urlA, urlB } = req.body;
+  const idMap = await getIdMap();
   const { deck: rawDeckA } = await getBushiDeck(`${urlA}`);
-  const deckA = await getDeckInfoFromId(rawDeckA);
+  const deckA = await getDeckInfoFromId(rawDeckA, idMap);
   const { deck: rawDeckB } = await getBushiDeck(`${urlB}`);
-  const deckB = await getDeckInfoFromId(rawDeckB);
+  const deckB = await getDeckInfoFromId(rawDeckB, idMap);
 
   try {
     const { sameCard, removedCards, addedCards } = await compareDecks(

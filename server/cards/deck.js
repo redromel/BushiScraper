@@ -57,16 +57,16 @@ export function writeDeckToFile(deck, filePath = "./decklist.txt") {
  * @param {boolean} [getCardInfoFlag=true] - Whether to fetch full card info from the ID map.
  * @returns {Card[]} The updated array of cards with other-language data applied.
  */
-export async function getOtherLangDeck(deck) {
-  const idMap = await getIdMap();
+export async function getOtherLangDeck(deck, IdMap) {
+
   for (const card of deck) {
     card.setOtherLangCard(idMap);
   }
   return deck;
 }
 
-export async function getDeckInfoFromId(deck) {
-  const idMap = await getIdMap();
+export async function getDeckInfoFromId(deck, idMap) {
+
   for (const card of deck) {
     card.getCardInfoFromId(idMap);
   }
@@ -164,8 +164,12 @@ export async function compareDecks(oldDeck, newDeck) {
     for (const altId of newCard.alternate_ids) {
       if (oldDeckMap.has(altId) || oldDeckMap.has(newCard.card_id)) {
         hasCard = true;
-        const oldCard = oldDeckMap.get(altId);
+        let oldCard = oldDeckMap.get(altId);
+        if (oldCard === undefined || oldCard === null) {
+          oldCard = oldDeckMap.get(newCard.card_id);
+        }
         sameCard.push(oldCard);
+
         const cardDiff = newCard.quantity - oldCard.quantity;
         if (cardDiff > 0) {
           slotIn.push({ ...newCard, quantity: Math.abs(cardDiff) });
