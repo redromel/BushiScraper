@@ -60,7 +60,7 @@ export function writeDeckToFile(deck, filePath = "./decklist.txt") {
 export async function getOtherLangDeck(deck, IdMap) {
 
   for (const card of deck) {
-    card.setOtherLangCard(idMap);
+    card.setOtherLangCard(IdMap);
   }
   return deck;
 }

@@ -1,7 +1,9 @@
 {
   "type": "module",
   "dependencies": {
+    "@elysiajs/node": "^1.4.0",
     "axios": "^1.11.0",
+    "elysia": "^1.4.7",
     "express": "^5.1.0",
     "minimist": "^1.2.8",
     "playwright": "^1.55.0"
@@ -12,8 +14,8 @@
     "nodemon": "^3.1.10"
   },
   "scripts": {
-    "getDeck": "node ./server/lib/app.js",
+    "getDeck": "bun ./server/lib/app.js",
     "devStart": "nodemon ./server/api/server.js",
-    "start":  "node server/api/server.js"
+    "start": "bun server/api/server.js"
   }
 }

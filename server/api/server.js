@@ -1,19 +1,16 @@
-import express from "express";
-import deckRouter from "./routes/decks.js";
-const app = express();
-const PORT = Number(process.env.PORT) || 3000;
 
-app.use(express.json());
-app.use("/decks", deckRouter);
+import { subRouter } from "./routes/decks.js";
+import {Elysia} from "elysia";
 
-app.get("/", (req, res) => {
-  // res.sendStatus(200);
-  console.log("test");
-  res.send("Hello World");
-});
+const PORT = Number(process.env.PORT) || 3030;
 
-app.get("/health", (req, res) => {
-  res.json({ ok: true });
-});
+const app = new Elysia()
+  .get("/", () => "Hello World")
+  .get("/health", () => ({ ok: true }))
+  .use(subRouter)
+  .listen(PORT);
 
-app.listen(PORT, "0.0.0.0", () => console.log(`API on http://0.0.0.0:${PORT}`));
+
+  console.log(
+  `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
+);

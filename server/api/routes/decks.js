@@ -4,6 +4,7 @@ import {
   verifyDeckExists,
   validateLinkPair,
   verifyBothExist,
+  mw,
 } from "../middleware/validateDecklog.js";
 
 import { getBushiDeck } from "../../services/scraper.js";
@@ -15,95 +16,128 @@ import {
   printDeck,
 } from "../../cards/deck.js";
 import { buildEnDeck } from "../../services/deck_creator.js";
+import Elysia from "elysia";
 
-const router = Router();
-router.post(
-  "/bushiDecklist",
-  validateLink,
-  verifyDeckExists,
-  async (req, res) => {
-    let { url, deck_name } = req.body;
+// const router = Router();
+// router.post(
+//   "/bushiDecklist",
+//   validateLink,
+//   verifyDeckExists,
+//   async (req, res) => {
+//     let { url, deck_name } = req.body;
 
-    console.log(`Generating EN Bushiroad link for ${url}`);
-    const { deck: rawDeck, title } = await getBushiDeck(`${url}`);
+//     console.log(`Generating EN Bushiroad link for ${url}`);
+//     const { deck: rawDeck, title } = await getBushiDeck(`${url}`);
 
-    const idMap = await getIdMap();
-    const deck = await getDeckInfoFromId(rawDeck, idMap);
-    const enDeck = await getOtherLangDeck(deck, idMap);
+//     const idMap = await getIdMap();
+//     const deck = await getDeckInfoFromId(rawDeck, idMap);
+//     const enDeck = await getOtherLangDeck(deck, idMap);
 
-    if (deck_name === undefined || deck_name === null) {
-      deck_name = title + " EN";
-    }
+//     if (deck_name === undefined || deck_name === null) {
+//       deck_name = title + " EN";
+//     }
 
-    const deckUrl = await buildEnDeck(enDeck, deck_name);
-    if (deckUrl === undefined || deckUrl === null) {
-      res.status(422).send({
-        error:
-          "Decklist could not be created (Deck is not Valid or from a future set)",
-      });
-      return;
-    }
-    res
-      .status(200)
-      .send({ message: `Decklist Creation complete`, url: deckUrl });
-  }
-);
-router.post(
-  "/simDecklist",
-  validateLink,
-  verifyDeckExists,
-  async (req, res) => {
-    const { url } = req.body;
-    const { lang } = req.decklog;
+//     const deckUrl = await buildEnDeck(enDeck, deck_name);
+//     if (deckUrl === undefined || deckUrl === null) {
+//       res.status(422).send({
+//         error:
+//           "Decklist could not be created (Deck is not Valid or from a future set)",
+//       });
+//       return;
+//     }
+//     res
+//       .status(200)
+//       .send({ message: `Decklist Creation complete`, url: deckUrl });
+//   }
+// );
+// router.post(
+//   "/simDecklist",
+//   validateLink,
+//   verifyDeckExists,
+//   async (req, res) => {
+//     const { url } = req.body;
+//     const { lang } = req.decklog;
 
-    const { deck: rawDeck } = await getBushiDeck(`${url}`);
-    const idMap = await getIdMap();
-    let deck = await getDeckInfoFromId(rawDeck, idMap);
-    if (lang === "jp") {
-      deck = await getOtherLangDeck(rawDeck, idMap);
-    }
+//     const { deck: rawDeck } = await getBushiDeck(`${url}`);
+//     const idMap = await getIdMap();
+//     let deck = await getDeckInfoFromId(rawDeck, idMap);
+//     if (lang === "jp") {
+//       deck = await getOtherLangDeck(rawDeck, idMap);
+//     }
 
-    const printedDeck = printDeck(deck);
+//     const printedDeck = printDeck(deck);
 
-    res.status(200).send({
-      message: `Decklist for https://sveclient.vercel.app/ complete`,
-      deck: printedDeck,
-    });
-  }
-);
+//     res.status(200).send({
+//       message: `Decklist for https://sveclient.vercel.app/ complete`,
+//       deck: printedDeck,
+//     });
+//   }
+// );
 
-router.post("/compare", validateLinkPair, verifyBothExist, async (req, res) => {
-  const { urlA, urlB } = req.body;
-  const idMap = await getIdMap();
-  const { deck: rawDeckA } = await getBushiDeck(`${urlA}`);
-  const deckA = await getDeckInfoFromId(rawDeckA, idMap);
-  const { deck: rawDeckB } = await getBushiDeck(`${urlB}`);
-  const deckB = await getDeckInfoFromId(rawDeckB, idMap);
+// router.post("/compare", validateLinkPair, verifyBothExist, async (req, res) => {
+//   const { urlA, urlB } = req.body;
+//   const idMap = await getIdMap();
+//   const { deck: rawDeckA } = await getBushiDeck(`${urlA}`);
+//   const deckA = await getDeckInfoFromId(rawDeckA, idMap);
+//   const { deck: rawDeckB } = await getBushiDeck(`${urlB}`);
+//   const deckB = await getDeckInfoFromId(rawDeckB, idMap);
 
-  try {
-    const { sameCard, removedCards, addedCards } = await compareDecks(
-      deckA,
-      deckB
-    );
+//   try {
+//     const { sameCard, removedCards, addedCards } = await compareDecks(
+//       deckA,
+//       deckB
+//     );
 
-    return res.status(200).json({
-      message: "Deck successfully compared",
-      summary: {
-        sameCard: sameCard.length,
-        removed: removedCards.length,
-        added: addedCards.length,
-      },
-      details: {
-        sameCard,
-        removedCards,
-        addedCards,
-      },
-    });
-  } catch (error) {
-    console.error("compareDecks failed:", error);
-    res.status(500).json({ error: "Failed to compare decks" });
-    return;
-  }
-});
+//     return res.status(200).json({
+//       message: "Deck successfully compared",
+//       summary: {
+//         sameCard: sameCard.length,
+//         removed: removedCards.length,
+//         added: addedCards.length,
+//       },
+//       details: {
+//         sameCard,
+//         removedCards,
+//         addedCards,
+//       },
+//     });
+//   } catch (error) {
+//     console.error("compareDecks failed:", error);
+//     res.status(500).json({ error: "Failed to compare decks" });
+//     return;
+//   }
+// });
 
-export default router;
+export const subRouter = new Elysia({ prefix: "/decks" })
+  .get("/", () => "Testing")
+  .post(
+    "/bushiDecklist",
+    async ({ body, set }) => {
+      let { url, deck_name } = body;
+
+      console.log(`Generating EN Bushiroad link for ${url}`);
+      const { deck: rawDeck, title } = await getBushiDeck(`${url}`);
+
+      const idMap = await getIdMap();
+      const deck = await getDeckInfoFromId(rawDeck, idMap);
+      const enDeck = await getOtherLangDeck(deck, idMap);
+
+      if (deck_name === undefined || deck_name === null) {
+        deck_name = title + " EN";
+      }
+
+      const deckUrl = await buildEnDeck(enDeck, deck_name);
+      if (deckUrl === undefined || deckUrl === null) {
+        set.status = 422;
+        return {
+          error:
+            "Decklist could not be created (Deck is not Valid or from a future set)",
+        };
+      }
+      set.status = 200;
+      return { message: "Decklist Creation complete", url: deckUrl };
+    },
+    { beforeHandle: mw(validateLink, verifyDeckExists) }
+  );
+
+export default subRouter;
